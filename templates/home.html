@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Pontos de Acupuntura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .dragon-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .dragon-image {
+            width: 100px;
+            opacity: 0.8;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .search-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dragon-container">
+            <img src="{{ url_for('static', filename='css/dragon.jpg') }}" alt="Dragão" class="dragon-image">
+            <img src="{{ url_for('static', filename='css/dragon1.jpg') }}" alt="Dragão" class="dragon-image">
+        </div>
+        
+        <h1>Sistema de Pontos de Acupuntura</h1>
+        
+        <div class="links">
+            <a href="/points" class="button">Ver Pontos</a>
+            <a href="/meridians" class="button">Ver Meridianos</a>
+            <a href="/syndromes" class="button">Ver Síndromes</a>
+        </div>
+
+        <div class="search-form">
+            <h2>Pesquisar Pontos</h2>
+            <form action="/search" method="get">
+                <input type="text" id="query" name="query" placeholder="Digite o termo de pesquisa...">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+
+        <div class="search-form">
+            <h2>Pesquisar Síndromes</h2>
+            <form action="/syndromes/search" method="get">
+                <input type="text" id="syndrome_query" name="query" placeholder="Digite o termo de pesquisa...">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,484 @@
+Nome OMS,Nome Chinês,Localização,Nível Energético,Meridiano Regular,Canal Maravilhoso,Função CM,Particularidade
+LU1,Zhong Fu,"Na região torácica lateral, no 1º espaço intercostal, 6 cun lateral à linha média, 1 cun abaixo de P2",Tai Yin,Pulmão,Não,N/A,Ponto Mu do Pulmão
+LU2,Yun Men,"Na região torácica lateral, no 2º espaço intercostal, 6 cun lateral à linha média",Tai Yin,Pulmão,Não,N/A,Ponto de dispersão
+LU3,Tian Fu,"Na região anterior do braço, 3 cun abaixo da axila, na borda lateral do músculo bíceps braquial",Tai Yin,Pulmão,Não,N/A,Acalma a mente
+LU4,Xia Bai,"Na região anterior do braço, 4 cun abaixo de P3, no sulco lateral do músculo bíceps braquial",Tai Yin,Pulmão,Não,N/A,Beneficia o Qi do pulmão
+LU5,Chi Ze,"Na fossa cubital, no lado radial do tendão do músculo bíceps braquial",Tai Yin,Pulmão,Não,N/A,Ponto água e ponto sedação
+LU6,Kong Zui,"Na região anterior do antebraço, 7 cun acima do punho, entre os músculos palmar longo e flexor radial do carpo",Tai Yin,Pulmão,Não,N/A,Ponto fogo e ponto tonificação
+LU7,Lie Que,"Na região lateral do punho, 1,5 cun acima do processo estilóide do rádio, na depressão entre os tendões,Tai Yin",Pulmão,Ren Mai,Abre,Ponto Luo, conecta com o Ren Mai
+LU8,Jing Qu,"Na região palmar do punho, 1 cun acima da dobra palmar do punho, entre os tendões dos músculos",Tai Yin,Pulmão,Não,N/A,Ponto rio
+LU9,Tai Yuan,"Na região palmar do punho, na dobra palmar do punho, no lado radial da artéria radial",Tai Yin,Pulmão,Não,N/A,Ponto fonte e ponto terra
+LU10,Yu Ji,"Na região tenar da mão, no meio da primeira articulação metacarpofalangeana",Tai Yin,Pulmão,Não,N/A,Ponto riacho
+LU11,Shao Shang,"No lado radial da falange distal do polegar, 0,1 cun proximal ao ângulo ungueal",Tai Yin,Pulmão,Não,N/A,Ponto poço e ponto madeira
+LI1,Shang Yang,"No lado radial da falange distal do indicador, 0,1 cun proximal ao ângulo ungueal",Yang Ming,Intestino Grosso,Não,N/A,Ponto poço e ponto metal
+LI2,Er Jian,"No lado radial da falange proximal do indicador, distal à articulação metacarpofalangeana",Yang Ming,Intestino Grosso,Não,N/A,Ponto riacho
+LI3,San Jian,"No lado radial do segundo metacarpo, proximal à cabeça do metacarpo",Yang Ming,Intestino Grosso,Não,N/A,Ponto rio
+LI4,He Gu,"Entre o primeiro e o segundo osso metacarpiano, no ponto médio do segundo metacarpiano",Yang Ming,Intestino Grosso,Não,N/A,Ponto fonte e ponto terra
+LI5,Yang Xi,"No lado radial do punho, na tabaqueira anatômica",Yang Ming,Intestino Grosso,Não,N/A,Ponto rio
+LI6,Pian Li,"3 cun acima do pulso, no lado radial do antebraço",Yang Ming,Intestino Grosso,Não,N/A,Ponto ramo
+LI7,Wen Liu,"Na face lateral do antebraço, 5 cun acima do punho",Yang Ming,Intestino Grosso,Não,N/A,Dispersa calor
+LI8,Xia Lian,"Na face lateral do antebraço, 4 cun distal da dobra do cotovelo",Yang Ming,Intestino Grosso,Não,N/A,Elimina obstruções do canal
+LI9,Shang Lian,"Na face lateral do antebraço, 3 cun distal da dobra do cotovelo",Yang Ming,Intestino Grosso,Não,N/A,Ponto água
+LI10,Shou San Li,"No dorso do antebraço, 2 cun distal do cotovelo",Yang Ming,Intestino Grosso,Não,N/A,Fortalece Qi e Sangue
+LI11,Qu Chi,Na extremidade lateral da prega do cotovelo,Yang Ming,Intestino Grosso,Não,N/A,Ponto Terra e Mar
+LI12,Zhou Liao,"No lado lateral do cotovelo, na depressão acima do epicôndilo lateral do úmero",Yang Ming,Intestino Grosso,Não,N/A,Relaxa tendões e músculos
+LI13,Shou Wu Li,"3 cun acima de LI11, no músculo braquiorradial",Yang Ming,Intestino Grosso,Não,N/A,Trata distúrbios do braço
+LI14,Bi Nao,"No bíceps braquial, 7 cun acima de LI11",Yang Ming,Intestino Grosso,Não,N/A,Ponto para dor no ombro
+LI15,Jian Yu,"Na região do ombro, anterior e inferior ao acrômio,Yang Ming",Intestino Grosso,Não,N/A,Ponto de encontro com VB, ID e TA
+LI16,Ju Gu,Na depressão entre o acrômio e a espinha da escápula,Yang Ming,Intestino Grosso,Não,N/A,Ponto para problema no ombro
+LI17,Tian Ding,"No lado posterior do pescoço, 1 cun posterior à borda do músculo esternocleidomastóideo",Yang Ming,Intestino Grosso,Não,N/A,Trata problemas na garganta
+LI18,Fu Tu,"Na borda posterior do músculo esternocleidomastóideo, ao nível da proeminência da laringe",Yang Ming,Intestino Grosso,Não,N/A,Trata problemas vocais
+LI19,He Liao,"0,5 cun lateral à asa do nariz",Yang Ming,Intestino Grosso,Não,N/A,Trata problemas nasais
+LI20,Ying Xiang,"No sulco nasolabial, ao nível do ponto médio da borda lateral da narina",Yang Ming,Intestino Grosso,Não,N/A,Ponto principal para problemas nasais
+ST1,Cheng Qi,"Com os olhos abertos, 0,1 cun abaixo da margem infraorbital, na linha da pupila",Yang Ming,Estômago,Não,N/A,Início do canal do Estômago
+ST2,Si Bai,"1 cun abaixo da margem infraorbital, na depressão no forâmen infraorbital",Yang Ming,Estômago,Não,N/A,Trata problemas oculares
+ST3,Ju Liao,"Na linha vertical que passa pela pupila, ao nível das asas do nariz",Yang Ming,Estômago,Não,N/A,Trata problemas nasais e faciais
+ST4,Di Cang,"Lateral à comissura da boca, diretamente abaixo de ST3",Yang Ming,Estômago,Não,N/A,Trata problemas faciais
+ST5,Da Ying,"Na borda anterior do músculo masseter, na depressão anterior ao ângulo da mandíbula",Yang Ming,Estômago,Não,N/A,Trata problemas mandibulares
+ST6,Jia Che,Na proeminência do músculo masseter,Yang Ming,Estômago,Não,N/A,Trata trismo e dor facial
+ST7,Xia Guan,Na depressão entre o arco zigomático e o côndilo da mandíbula,Yang Ming,Estômago,Não,N/A,Trata distúrbios da ATM
+ST8,Tou Wei,"0,5 cun acima do ângulo anterior do cabelo, 4,5 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Ponto de cefaleia
+ST9,Ren Ying,"No músculo esternocleidomastóideo, no nível da proeminência da laringe, onde a artéria carótida pulsa",Yang Ming,Estômago,Não,N/A,Ponto de encontro com Ren Mai
+ST10,Shui Tu,"No bordo anterior do músculo esternocleidomastóideo, no nível da proeminência da laringe",Yang Ming,Estômago,Não,N/A,Ponto para problemas da garganta
+ST11,Qi She,"No bordo superior da clavícula, 1 cun lateral à borda lateral do osso hióide",Yang Ming,Estômago,Não,N/A,Trata problemas na garganta
+ST12,Que Pen,"Na fossa supraclavicular, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Dispersa estagnação torácica
+ST13,Qi Hu,"Abaixo da extremidade lateral da clavícula, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata distúrbios torácicos
+ST14,Ku Fang,"No 1º espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata problemas respiratórios
+ST15,Wu Yi,"No 2º espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata problemas torácicos
+ST16,Ying Chuang,"No 3º espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata congestão torácica
+ST17,Ru Zhong,"No centro do mamilo, no 4º espaço intercostal",Yang Ming,Estômago,Não,N/A,Ponto de referência
+ST18,Ru Gen,"No 5º espaço intercostal, 4 cun lateral à linha média, abaixo do mamilo",Yang Ming,Estômago,Não,N/A,Trata problemas mamários
+ST19,Bu Rong,"No 6º espaço intercostal, 6 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata distensão abdominal
+ST20,Cheng Man,"No 7º espaço intercostal, 6 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Harmoniza o Estômago
+ST21,Liang Men,"2 cun abaixo do último espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata problemas digestivos
+ST22,Guan Men,"3 cun abaixo do último espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Regula o intestino
+ST23,Tai Yi,"4 cun abaixo do último espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata distensão abdominal
+ST24,Hua Rou Men,"5 cun abaixo do último espaço intercostal, 4 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Regula o intestino
+ST25,Tian Shu,2 cun lateral ao umbigo,Yang Ming,Estômago,Não,N/A,Ponto Mu do Intestino Grosso
+ST26,Wai Ling,"2 cun abaixo do umbigo, 2 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Regula o intestino
+ST27,Da Ju,"3 cun abaixo do umbigo, 2 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata distúrbios urinários
+ST28,Shui Dao,"4 cun abaixo do umbigo, 2 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata problemas urogenitais
+ST29,Gui Lai,"5 cun abaixo do umbigo, 2 cun lateral à linha média",Yang Ming,Estômago,Não,N/A,Trata problemas ginecológicos
+ST30,Qi Chong,"5 cun abaixo do umbigo, 2 cun lateral à linha média, no mesmo nível do púbis",Yang Ming,Estômago,Não,N/A,Ponto de encontro com Chong Mai
+ST31,Bi Guan,"Na linha que liga o EIAS ao bordo lateral da patela, ao nível da dobra inguinal",Yang Ming,Estômago,Não,N/A,Trata problemas da coxa
+ST32,Fu Tu,"Na linha que liga o EIAS ao bordo lateral da patela, 6 cun acima da borda superior da patela",Yang Ming,Estômago,Não,N/A,Trata problemas da coxa
+ST33,Yin Shi,"Na linha que liga o EIAS ao bordo lateral da patela, 3 cun acima da borda superior da patela",Yang Ming,Estômago,Não,N/A,Trata problemas do joelho
+ST34,Liang Qiu,"Na linha que liga o EIAS ao bordo lateral da patela, 2 cun acima da borda superior da patela",Yang Ming,Estômago,Não,N/A,Ponto Xi
+ST35,Du Bi,"Na depressão lateral ao tendão patelar, quando o joelho está fletido",Yang Ming,Estômago,Não,N/A,Ponto para dor no joelho
+ST36,Zu San Li,"3 cun abaixo da patela, 1 cun lateral à crista da tíbia,Yang Ming",Estômago,Não,N/A,Ponto Mar e Terra, fortalece o corpo
+ST37,Shang Ju Xu,"6 cun abaixo da patela, 1 cun lateral à crista da tíbia",Yang Ming,Estômago,Não,N/A,Ponto Mar Inferior do Intestino Grosso
+ST38,Tiao Kou,"8 cun abaixo da patela, 1 cun lateral à crista da tíbia",Yang Ming,Estômago,Não,N/A,Trata problemas do ombro
+ST39,Xia Ju Xu,"9 cun abaixo da patela, 1 cun lateral à crista da tíbia",Yang Ming,Estômago,Não,N/A,Ponto Mar Inferior do Intestino Delgado
+ST40,Feng Long,"8 cun acima do maléolo lateral, no bordo lateral da tíbia,Yang Ming",Estômago,Não,N/A,Ponto Luo, resolve fleuma
+ST41,Jie Xi,"No dorso do pé, na prega da articulação tibiotársica, entre os tendões do extensor longo do hálux e o extensor longo dos dedos",Yang Ming,Estômago,Não,N/A,Ponto riacho e metal
+ST42,Chong Yang,"No dorso do pé, na linha entre o 2º e 3º metatarso, na depressão distal à junção do 2º e 3º ossos cuneiformes",Yang Ming,Estômago,Não,N/A,Ponto fonte
+ST43,Xian Gu,"No dorso do pé, na depressão distal à junção dos 2º e 3º metatarsos",Yang Ming,Estômago,Não,N/A,Ponto madeira
+ST44,Nei Ting,"Entre o 2º e 3º metatarsos, proximal às cabeças dos metatarsos",Yang Ming,Estômago,Não,N/A,Ponto riacho
+ST45,Li Dui,"0,1 cun proximal ao ângulo ungueal do segundo dedo do pé",Yang Ming,Estômago,Não,N/A,Ponto poço
+SP1,Yin Bai,"No lado medial do hálux, 0,1 cun proximal ao ângulo ungueal",Tai Yin,Baço-Pâncreas,Não,N/A,Ponto poço e ponto madeira
+SP2,Da Du,"No lado medial do hálux, distal à articulação metatarsofalangeana",Tai Yin,Baço-Pâncreas,Não,N/A,Ponto riacho
+SP3,Tai Bai,"No lado medial do pé, na articulação metatarsofalangeana do hálux",Tai Yin,Baço-Pâncreas,Não,N/A,Ponto fonte e ponto terra
+SP4,Gong Sun,"Na borda medial do pé, em uma depressão distal à base do primeiro metatarso,Tai Yin",Baço-Pâncreas,Chong Mai,Abre,Ponto Luo, conecta com o Chong Mai
+SP5,Shang Qiu,Na depressão anteroinferior ao maléolo medial,Tai Yin,Baço-Pâncreas,Não,N/A,Ponto rio e metal
+SP6,San Yin Jiao,"3 cun acima da ponta do maléolo medial, na borda posterior da tíbia",Tai Yin,Baço-Pâncreas,Não,N/A,Cruza os 3 meridianos Yin da perna
+SP7,Lou Gu,"6 cun acima do maléolo medial, na borda posterior da tíbia",Tai Yin,Baço-Pâncreas,Não,N/A,Tonifica o Baço
+SP8,Di Ji,"3 cun abaixo de SP9, na borda posterior da tíbia",Tai Yin,Baço-Pâncreas,Não,N/A,Ponto Xi
+SP9,Yin Ling Quan,"Na borda inferior da tuberosidade da tíbia, na depressão no bordo inferior do côndilo medial da tíbia",Tai Yin,Baço-Pâncreas,Não,N/A,Ponto água e Mar
+SP10,Xue Hai,"2 cun acima da borda superior da patela, na protuberância do vasto medial,Tai Yin",Baço-Pâncreas,Não,N/A,Mar do Sangue, tonifica e regula o sangue
+SP11,Ji Men,"6 cun acima da borda superior da patela, 6 cun ao longo do canal a partir de SP10",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas abdominais
+SP12,Chong Men,"Na virilha, na extremidade lateral da dobra inguinal, na borda do púbis",Tai Yin,Baço-Pâncreas,Não,N/A,Regula o Chong Mai
+SP13,Fu She,"Na extremidade lateral da dobra inguinal, 4 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas abdominais
+SP14,Fu Jie,"4 cun abaixo do umbigo, 4 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Regula o intestino
+SP15,Da Heng,4 cun lateral ao umbigo,Tai Yin,Baço-Pâncreas,Não,N/A,Regula o intestino
+SP16,Fu Ai,"3 cun acima do umbigo, 4 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata distensão abdominal
+SP17,Shi Dou,"No 5º espaço intercostal, 6 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas digestivos
+SP18,Tian Xi,"No 4º espaço intercostal, 6 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas mamários
+SP19,Xiong Xiang,"No 3º espaço intercostal, 6 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas torácicos
+SP20,Zhou Rong,"No 2º espaço intercostal, 6 cun lateral à linha média",Tai Yin,Baço-Pâncreas,Não,N/A,Trata problemas respiratórios
+SP21,Da Bao,"Na linha axilar média, no 6º espaço intercostal",Tai Yin,Baço-Pâncreas,Não,N/A,Grande Luo do Baço
+HT1,Ji Quan,"No centro da axila, na fossa axilar quando o braço está em abdução",Shao Yin,Coração,Não,N/A,Ponto de inserção do canal
+HT2,Qing Ling,"No lado medial do braço, 3 cun acima da prega da axila",Shao Yin,Coração,Não,N/A,Acalma o espírito
+HT3,Shao Hai,"Com o cotovelo flexionado, no ponto médio entre o epicôndilo medial do úmero e o olécrano",Shao Yin,Coração,Não,N/A,Ponto mar
+HT4,Ling Dao,"Na face medial do antebraço, 1,5 cun acima da dobra volar do punho",Shao Yin,Coração,Não,N/A,Ponto junção
+HT5,Tong Li,"1 cun proximal ao punho, no lado ulnar do tendão do flexor ulnar do carpo",Shao Yin,Coração,Não,N/A,Ponto Luo
+HT6,Yin Xi,"0,5 cun proximal ao punho, no lado ulnar do tendão do flexor ulnar do carpo",Shao Yin,Coração,Não,N/A,Ponto Xi
+HT7,Shen Men,"Na dobra do punho, entre os tendões dos músculos flexor ulnar do carpo e palmar longo,Shao Yin",Coração,Não,N/A,Ponto fonte e terra, acalma a mente
+HT8,Shao Fu,"Na palma da mão, entre o 4º e 5º metacarpo",Shao Yin,Coração,Não,N/A,Ponto fogo
+HT9,Shao Chong,"No lado radial da falange distal do dedo mínimo, 0,1 cun do ângulo ungueal",Shao Yin,Coração,Não,N/A,Ponto poço
+SI1,Shao Ze,"No lado ulnar da falange distal do dedo mínimo, 0,1 cun do ângulo ungueal",Tai Yang,Intestino Delgado,Não,N/A,Ponto poço
+SI2,Qian Gu,"Quando o punho está cerrado, na borda ulnar da articulação metacarpofalangeana do dedo mínimo",Tai Yang,Intestino Delgado,Não,N/A,Ponto riacho
+SI3,Hou Xi,"Na borda ulnar da mão, proximal à cabeça do 5º metacarpo, na transição da pele clara e escura,Tai Yang",Intestino Delgado,Du Mai,Abre,Ponto rio e ponto madeira, abre o Du Mai
+SI4,Wan Gu,"No lado ulnar do punho, na depressão entre o osso pisiforme e a base do 5º metacarpo",Tai Yang,Intestino Delgado,Não,N/A,Ponto fonte
+SI5,Yang Gu,"Na borda ulnar do punho, na depressão entre o processo estilóide da ulna e o osso piramidal",Tai Yang,Intestino Delgado,Não,N/A,Ponto rio e metal
+SI6,Yang Lao,"Em uma depressão dorsal do punho, entre o processo estilóide da ulna e o osso triquetral",Tai Yang,Intestino Delgado,Não,N/A,Ponto xi
+SI7,Zhi Zheng,"5 cun acima do punho, na borda ulnar do antebraço",Tai Yang,Intestino Delgado,Não,N/A,Beneficia os órgãos dos sentidos
+SI8,Xiao Hai,Entre o olécrano e o epicôndilo medial do úmero,Tai Yang,Intestino Delgado,Não,N/A,Ponto mar
+SI9,Jian Zhen,"Posterior à articulação do ombro, 1 cun acima da dobra axilar posterior",Tai Yang,Intestino Delgado,Não,N/A,Trata dor no ombro
+SI10,Nao Shu,"Quando o braço é elevado, no bordo inferior da espinha da escápula",Tai Yang,Intestino Delgado,Não,N/A,Trata dor no ombro
+SI11,Tian Zong,No centro da fossa infraespinhal,Tai Yang,Intestino Delgado,Não,N/A,Relaxa músculos e tendões
+SI12,Bing Feng,"Na fossa supraespinhal, diretamente acima da metade da espinha da escápula",Tai Yang,Intestino Delgado,Não,N/A,Trata rigidez dos músculos do ombro
+SI13,Qu Yuan,Na borda medial da fossa supraespinhal,Tai Yang,Intestino Delgado,Não,N/A,Trata rigidez do pescoço
+SI14,Jian Wai Shu,2 cun lateral ao bordo inferior do processo espinhoso da primeira vértebra torácica,Tai Yang,Intestino Delgado,Não,N/A,Relaxa os músculos do ombro
+SI15,Jian Zhong Shu,2 cun lateral ao bordo inferior do processo espinhoso da sétima vértebra cervical,Tai Yang,Intestino Delgado,Não,N/A,Trata dor nas costas e pescoço
+SI16,Tian Chuang,"Posterior ao músculo esternocleidomastóideo, no nível da proeminência da laringe",Tai Yang,Intestino Delgado,Não,N/A,Trata problemas na garganta
+SI17,Tian Rong,"Posterior ao ângulo da mandíbula, na borda anterior do músculo esternocleidomastóideo",Tai Yang,Intestino Delgado,Não,N/A,Trata problemas de audição
+SI18,Quan Liao,"Abaixo do arco zigomático, na depressão anterior ao côndilo da mandíbula",Tai Yang,Intestino Delgado,Não,N/A,Trata dor facial
+SI19,Ting Gong,"Anterior ao trago, na depressão formada quando a boca está aberta",Tai Yang,Intestino Delgado,Não,N/A,Trata problemas auditivos
+BL1,Jing Ming,"No canto interno do olho, na depressão acima do canto interno do olho",Tai Yang,Bexiga,Não,N/A,Início do meridiano da bexiga
+BL2,Zan Zhu,"Na extremidade medial da sobrancelha, na incisura supraorbital",Tai Yang,Bexiga,Não,N/A,Ponto para problemas oculares
+BL3,Mei Chong,"Diretamente acima do ponto médio da sobrancelha, 0,5 cun na linha anterior do cabelo",Tai Yang,Bexiga,Não,N/A,Trata problemas oculares
+BL4,Qu Chai,"0,5 cun lateral à linha média, 0,5 cun dentro da linha anterior do cabelo",Tai Yang,Bexiga,Não,N/A,Trata cefaleia
+BL5,Wu Chu,"1 cun atrás de BL4, 0,5 cun lateral à linha média",Tai Yang,Bexiga,Não,N/A,Trata cefaleia
+BL6,Cheng Guang,"1,5 cun posterior à linha anterior do cabelo, 0,5 cun lateral à linha média",Tai Yang,Bexiga,Não,N/A,Trata problemas nasais
+BL7,Tong Tian,"1 cun lateral à linha média, 4 cun posterior à linha anterior do cabelo",Tai Yang,Bexiga,Não,N/A,Meridiano Taiyang da cabeça
+BL8,Luo Que,"1,5 cun lateral à linha média, no topo da cabeça, 5,5 cun posterior à linha anterior do cabelo",Tai Yang,Bexiga,Não,N/A,Abre os sentidos
+BL9,Yu Zhen,"1,5 cun lateral à linha média, 6 cun posterior à linha anterior do cabelo",Tai Yang,Bexiga,Não,N/A,Trata problemas de visão
+BL10,Tian Zhu,"Na borda posterior do pescoço, 1 cun lateral à linha média, na depressão abaixo do osso occipital",Tai Yang,Bexiga,Não,N/A,Trata rigidez do pescoço
+BL11,Da Zhu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto de encontro com o meridiano do Intestino Delgado
+BL12,Feng Men,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata resfriados e gripes
+BL13,Fei Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Pulmão
+BL14,Jue Yin Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Pericárdio
+BL15,Xin Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Coração
+BL16,Du Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da sexta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Diafragma
+BL17,Ge Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da sétima vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Estômago
+BL18,Gan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da nona vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Fígado
+BL19,Dan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu da Vesícula Biliar
+BL20,Pi Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima primeira vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Baço
+BL21,Wei Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima segunda vértebra torácica",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Estômago
+BL22,San Jiao Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra lombar",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Triplo Aquecedor
+BL23,Shen Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra lombar",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Rim
+BL24,Qi Hai Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra lombar",Tai Yang,Bexiga,Não,N/A,Fortalece o Qi
+BL25,Da Chang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra lombar",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Intestino Grosso
+BL26,Guan Yuan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra lombar",Tai Yang,Bexiga,Não,N/A,Trata problemas urogenitais
+BL27,Xiao Chang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra sacral",Tai Yang,Bexiga,Não,N/A,Ponto Shu do Intestino Delgado
+BL28,Pang Guang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra sacral",Tai Yang,Bexiga,Não,N/A,Ponto Shu da Bexiga
+BL29,Zhong Lv Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas lombares
+BL30,Bai Huan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL31,Shang Liao,"Na região sacral, no primeiro forame sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL32,Ci Liao,"Na região sacral, no segundo forame sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL33,Zhong Liao,"Na região sacral, no terceiro forame sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL34,Xia Liao,"Na região sacral, no quarto forame sacral",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL35,Hui Yang,"Na região sacral, 0,5 cun lateral ao cóccix",Tai Yang,Bexiga,Não,N/A,Trata problemas pélvicos
+BL36,Cheng Fu,"Na região glútea, no meio da dobra glútea",Tai Yang,Bexiga,Não,N/A,Trata problemas da coxa
+BL37,Yin Men,"Na região posterior da coxa, 6 cun acima da dobra poplítea",Tai Yang,Bexiga,Não,N/A,Trata problemas da coxa
+BL38,Fu Xi,"Na região posterior da coxa, 9 cun acima da dobra poplítea",Tai Yang,Bexiga,Não,N/A,Trata problemas da coxa
+BL39,Wei Yang,"Na região posterior do joelho, na dobra poplítea",Tai Yang,Bexiga,Não,N/A,Trata problemas do joelho
+BL40,Wei Zhong,"No centro da dobra poplítea,Tai Yang",Bexiga,Não,N/A,Ponto Mar e Terra, trata problemas lombares
+BL41,Fu Fen,"3 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas torácicos
+BL42,Po Hu,"3 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas respiratórios
+BL43,Gao Huang,"3 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas respiratórios
+BL44,Shen Tang,"3 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas cardíacos
+BL45,Yi Xi,"3 cun lateral à linha média, no nível do processo espinhoso da sexta vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas torácicos
+BL46,Ge Guan,"3 cun lateral à linha média, no nível do processo espinhoso da sétima vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas digestivos
+BL47,Hun Men,"3 cun lateral à linha média, no nível do processo espinhoso da nona vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas emocionais
+BL48,Yang Gang,"3 cun lateral à linha média, no nível do processo espinhoso da décima vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas digestivos
+BL49,Yi She,"3 cun lateral à linha média, no nível do processo espinhoso da décima primeira vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas digestivos
+BL50,Wei Cang,"3 cun lateral à linha média, no nível do processo espinhoso da décima segunda vértebra torácica",Tai Yang,Bexiga,Não,N/A,Trata problemas digestivos
+BL51,Huang Men,"3 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra lombar",Tai Yang,Bexiga,Não,N/A,Trata problemas abdominais
+BL52,Zhi Shi,"3 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra lombar",Tai Yang,Bexiga,Não,N/A,Trata problemas lombares
+BL53,Bao Huang,"3 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra lombar",Tai Yang,Bexiga,Não,N/A,Trata problemas urogenitais
+BL54,Zhi Bian,"3 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra lombar",Tai Yang,Bexiga,Não,N/A,Trata problemas lombares
+BL55,He Yang,"Na região posterior da perna, 2 cun abaixo da dobra poplítea",Tai Yang,Bexiga,Não,N/A,Trata problemas da perna
+BL56,Cheng Jin,"Na região posterior da perna, 5 cun abaixo da dobra poplítea",Tai Yang,Bexiga,Não,N/A,Trata problemas da perna
+BL57,Cheng Shan,"Na região posterior da perna, no ponto médio entre a dobra poplítea e o tendão de Aquiles",Tai Yang,Bexiga,Não,N/A,Trata problemas da perna
+BL58,Fei Yang,"7 cun acima do maléolo lateral, na borda lateral da fíbula",Tai Yang,Bexiga,Não,N/A,Trata problemas da perna
+BL59,Fu Yang,"3 cun acima do maléolo lateral, na borda lateral da fíbula",Tai Yang,Bexiga,Não,N/A,Trata problemas da perna
+BL60,Kun Lun,Na depressão entre o maléolo lateral e o tendão de Aquiles,Tai Yang,Bexiga,Não,N/A,Ponto rio e metal
+BL61,Pu Can,"Na borda lateral do pé, 1 cun abaixo do maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL62,Shen Mai,"Na borda lateral do pé, 0,5 cun abaixo do maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL63,Jin Men,"Na borda lateral do pé, 0,5 cun acima do maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL64,Jing Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL65,Shu Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL66,Zu Tong Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Tai Yang,Bexiga,Não,N/A,Trata problemas do pé
+BL67,Zhi Yin,"No lado lateral do dedo mínimo do pé, 0,1 cun proximal ao ângulo ungueal",Tai Yang,Bexiga,Não,N/A,Ponto poço
+KI1,Yong Quan,"Na planta do pé, no terço anterior, na depressão formada quando os dedos são flexionados",Shao Yin,Rim,Não,N/A,Ponto poço e madeira
+KI2,Ran Gu,"Na planta do pé, no terço médio, na depressão entre o segundo e terceiro metatarsos",Shao Yin,Rim,Não,N/A,Ponto riacho
+KI3,Tai Xi,"Na região medial do tornozelo, na depressão entre o maléolo medial e o tendão de Aquiles",Shao Yin,Rim,Não,N/A,Ponto fonte e terra
+KI4,Da Zhong,"Na região medial do tornozelo, 1 cun abaixo de KI3",Shao Yin,Rim,Não,N/A,Ponto rio
+KI5,Shui Quan,"Na região medial do tornozelo, 1 cun abaixo de KI4",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI6,Zhao Hai,"Na região medial do tornozelo, 1 cun abaixo do maléolo medial",Shao Yin,Rim,Não,N/A,Ponto mar
+KI7,Fu Liu,"Na região medial da perna, 2 cun acima do maléolo medial",Shao Yin,Rim,Não,N/A,Ponto rio
+KI8,Jiao Xin,"Na região medial da perna, 2 cun acima de KI7",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI9,Zhu Bin,"Na região medial da perna, 5 cun acima do maléolo medial",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI10,Yin Gu,"Na região medial da coxa, 3 cun acima da borda medial da patela",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI11,Heng Gu,"Na região inguinal, 5 cun lateral ao púbis",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI12,Da He,"Na região inguinal, 4 cun lateral ao púbis",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI13,Qi Xue,"Na região inguinal, 3 cun lateral ao púbis",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI14,Si Man,"Na região inguinal, 2 cun lateral ao púbis",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI15,Zhong Zhu,"Na região inguinal, 1 cun lateral ao púbis",Shao Yin,Rim,Não,N/A,Trata problemas urogenitais
+KI16,Huang Shu,"Na região abdominal, 0,5 cun lateral ao umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI17,Shang Qu,"Na região abdominal, 1 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI18,Shi Guan,"Na região abdominal, 2 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI19,Yin Du,"Na região abdominal, 3 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI20,Fu Tong Gu,"Na região abdominal, 4 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI21,You Men,"Na região abdominal, 5 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI22,Bu Lang,"Na região abdominal, 6 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI23,Shen Feng,"Na região abdominal, 7 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI24,Ling Xu,"Na região abdominal, 8 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI25,Shen Cang,"Na região abdominal, 9 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI26,Yu Zhong,"Na região abdominal, 10 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+KI27,Shu Fu,"Na região abdominal, 11 cun acima do umbigo",Shao Yin,Rim,Não,N/A,Trata problemas abdominais
+PC1,Tian Chi,"No quarto espaço intercostal, 1 cun lateral ao mamilo",Jue Yin,Pericárdio,Não,N/A,Ponto Mu do Pericárdio
+PC2,Tian Quan,"No terceiro espaço intercostal, 2 cun lateral ao mamilo",Jue Yin,Pericárdio,Não,N/A,Trata problemas torácicos
+PC3,Qu Ze,"Na fossa cubital, no lado ulnar do tendão do bíceps braquial",Jue Yin,Pericárdio,Não,N/A,Ponto água e ponto sedação
+PC4,Xi Men,"Na região anterior do antebraço, 5 cun acima do punho, entre os tendões do músculo palmar longo e flexor radial do carpo",Jue Yin,Pericárdio,Não,N/A,Ponto Xi
+PC5,Jian Shi,"Na região anterior do antebraço, 3 cun acima do punho, entre os tendões do músculo palmar longo e flexor radial do carpo",Jue Yin,Pericárdio,Não,N/A,Ponto rio
+PC6,Nei Guan,"Na região anterior do antebraço, 2 cun acima do punho, entre os tendões do músculo palmar longo e flexor radial do carpo",Jue Yin,Pericárdio,Não,N/A,Ponto Luo
+PC7,Da Ling,"Na região anterior do punho, na dobra do punho, entre os tendões do músculo palmar longo e flexor radial do carpo",Jue Yin,Pericárdio,Não,N/A,Ponto fonte e terra
+PC8,Laogong,"Na palma da mão, entre o segundo e terceiro metacarpo",Jue Yin,Pericárdio,Não,N/A,Ponto fogo
+PC9,Zhong Chong,"No lado ulnar da falange distal do dedo médio, 0,1 cun proximal ao ângulo ungueal",Jue Yin,Pericárdio,Não,N/A,Ponto poço
+TE1,Guan Chong,"No lado ulnar da falange distal do dedo anular, 0,1 cun proximal ao ângulo ungueal",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto poço
+TE2,Ye Men,"No lado ulnar da falange proximal do dedo anular, distal à articulação metacarpofalangeana",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto riacho
+TE3,Zhong Zhu,"No lado ulnar do quarto metacarpo, proximal à cabeça do metacarpo",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto rio
+TE4,Yang Chi,"No dorso do punho, na depressão entre o quarto e quinto metacarpo",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto fonte
+TE5,Wai Guan,"Na região dorsal do antebraço, 2 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto Luo
+TE6,Zhi Gou,"Na região dorsal do antebraço, 3 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE7,Hui Zong,"Na região dorsal do antebraço, 4 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE8,San Yang Luo,"Na região dorsal do antebraço, 5 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE9,Si Du,"Na região dorsal do antebraço, 6 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE10,Tian Jing,"Na região dorsal do antebraço, 7 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Ponto mar
+TE11,Qing Leng Yuan,"Na região dorsal do antebraço, 8 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE12,Xiao Luo,"Na região dorsal do antebraço, 9 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE13,Nao Hui,"Na região dorsal do antebraço, 10 cun acima do punho, entre os tendões do músculo extensor ulnar do carpo e extensor radial do carpo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE14,Jian Liao,"Na região do ombro, posterior e inferior ao acrômio",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE15,Tian Liao,"Na região do ombro, posterior e inferior ao acrômio",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do ombro
+TE16,Tian You,"Na região do pescoço, posterior ao músculo esternocleidomastóideo",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas do pescoço
+TE17,Yi Feng,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE18,Chi Mai,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE19,Lu Xi,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE20,Jiao Sun,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE21,Er Men,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE22,He Liao,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+TE23,Si Zhu Kong,"Na região do pescoço, posterior ao ângulo da mandíbula",Shao Yang,Triplo Aquecedor,Não,N/A,Trata problemas de audição
+GB1,Tong Zi Liao,"No canto externo do olho, na depressão acima do canto externo do olho",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas oculares
+GB2,Ting Hui,"Anterior ao trago, na depressão formada quando a boca está aberta",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas auditivos
+GB3,Shang Guan,"Abaixo do arco zigomático, na depressão anterior ao côndilo da mandíbula",Shao Yang,Vesícula Biliar,Não,N/A,Trata dor facial
+GB4,Han Yan,"No lado lateral da cabeça, 0,5 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB5,Xuan Lu,"No lado lateral da cabeça, 1 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB6,Xuan Li,"No lado lateral da cabeça, 1,5 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB7,Qu Bin,"No lado lateral da cabeça, 2 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB8,Shuai Gu,"No lado lateral da cabeça, 3 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB9,Tian Chong,"No lado lateral da cabeça, 4 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB10,Fu Bai,"No lado lateral da cabeça, 5 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB11,Tou Qiao Yin,"No lado lateral da cabeça, 6 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB12,Wan Gu,"No lado lateral da cabeça, 7 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB13,Ben Shen,"No lado lateral da cabeça, 8 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB14,Yang Bai,"No lado lateral da cabeça, 9 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB15,Tou Lin Qi,"No lado lateral da cabeça, 10 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB16,Mu Chuang,"No lado lateral da cabeça, 11 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB17,Zheng Ying,"No lado lateral da cabeça, 12 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB18,Cheng Ling,"No lado lateral da cabeça, 13 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB19,Na Shu,"No lado lateral da cabeça, 14 cun acima da linha do cabelo",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia
+GB20,Feng Chi,"Na região posterior do pescoço, na depressão entre os músculos esternocleidomastóideo e trapézio",Shao Yang,Vesícula Biliar,Não,N/A,Trata cefaleia e rigidez do pescoço
+GB21,Jian Jing,"Na região do ombro, no ponto médio entre o acrômio e a sétima vértebra cervical",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do ombro
+GB22,Yuan Ye,"Na região do ombro, 1 cun abaixo de GB21",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do ombro
+GB23,Zhe Jin,"Na região do ombro, 2 cun abaixo de GB21",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do ombro
+GB24,Ri Yue,"Na região do tórax, no sétimo espaço intercostal, 4 cun lateral ao mamilo",Shao Yang,Vesícula Biliar,Não,N/A,Ponto Mu da Vesícula Biliar
+GB25,Jing Men,"Na região do tórax, no oitavo espaço intercostal, 4 cun lateral ao mamilo",Shao Yang,Vesícula Biliar,Não,N/A,Ponto Mu do Fígado
+GB26,Dai Mai,"Na região do abdômen, 1 cun abaixo do umbigo, 4 cun lateral à linha média",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas abdominais
+GB27,Wu Shu,"Na região do abdômen, 2 cun abaixo do umbigo, 4 cun lateral à linha média",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas abdominais
+GB28,Wei Dao,"Na região do abdômen, 3 cun abaixo do umbigo, 4 cun lateral à linha média",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas abdominais
+GB29,Ju Liao,"Na região do abdômen, 4 cun abaixo do umbigo, 4 cun lateral à linha média",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas abdominais
+GB30,Huan Tiao,"Na região glútea, no ponto médio entre o trocanter maior e a espinha ilíaca posterior superior",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da coxa
+GB31,Feng Shi,"Na região lateral da coxa, 7 cun acima da borda lateral da patela",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da coxa
+GB32,Zhong Du,"Na região lateral da coxa, 9 cun acima da borda lateral da patela",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da coxa
+GB33,Xi Yang Guan,"Na região lateral da coxa, 11 cun acima da borda lateral da patela",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da coxa
+GB34,Yang Ling Quan,"Na região lateral do joelho, na depressão anterior ao côndilo lateral da tíbia",Shao Yang,Vesícula Biliar,Não,N/A,Ponto mar
+GB35,Yang Jiao,"Na região lateral da perna, 7 cun acima do maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da perna
+GB36,Wai Qiu,"Na região lateral da perna, 5 cun acima do maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da perna
+GB37,Guang Ming,"Na região lateral da perna, 4 cun acima do maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da perna
+GB38,Yang Fu,"Na região lateral da perna, 3 cun acima do maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da perna
+GB39,Xuan Zhong,"Na região lateral da perna, 2 cun acima do maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas da perna
+GB40,Qiu Xu,"Na região lateral do tornozelo, na depressão anterior ao maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do tornozelo
+GB41,Zu Lin Qi,"Na região lateral do pé, na depressão distal ao maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do pé
+GB42,Di Wu Hui,"Na região lateral do pé, na depressão distal ao maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do pé
+GB43,Xia Xi,"Na região lateral do pé, na depressão distal ao maléolo lateral",Shao Yang,Vesícula Biliar,Não,N/A,Trata problemas do pé
+GB44,Zu Qiao Yin,"No lado lateral do dedo mínimo do pé, 0,1 cun proximal ao ângulo ungueal",Shao Yang,Vesícula Biliar,Não,N/A,Ponto poço
+LR1,Da Dun,"No lado medial do hálux, 0,1 cun proximal ao ângulo ungueal",Jue Yin,Fígado,Não,N/A,Ponto poço e madeira
+LR2,Xing Jian,"No lado medial do hálux, distal à articulação metatarsofalangeana",Jue Yin,Fígado,Não,N/A,Ponto riacho
+LR3,Tai Chong,"No lado medial do pé, na articulação metatarsofalangeana do hálux",Jue Yin,Fígado,Não,N/A,Ponto fonte e terra
+LR4,Zhong Feng,"Na borda medial do pé, em uma depressão distal à base do primeiro metatarso",Jue Yin,Fígado,Não,N/A,Ponto rio
+LR5,Li Gou,"Na região medial da perna, 5 cun acima do maléolo medial",Jue Yin,Fígado,Não,N/A,Ponto Luo
+LR6,Zhong Du,"Na região medial da perna, 7 cun acima do maléolo medial",Jue Yin,Fígado,Não,N/A,Trata problemas urogenitais
+LR7,Xi Guan,"Na região medial da perna, 9 cun acima do maléolo medial",Jue Yin,Fígado,Não,N/A,Trata problemas da perna
+LR8,Qu Quan,"Na região medial do joelho, na depressão entre o côndilo medial da tíbia e o tendão do músculo semitendinoso",Jue Yin,Fígado,Não,N/A,Ponto mar
+LR9,Yin Bao,"Na região medial da coxa, 3 cun acima da borda medial da patela",Jue Yin,Fígado,Não,N/A,Trata problemas da coxa
+LR10,Zu Wu Li,"Na região medial da coxa, 5 cun acima da borda medial da patela",Jue Yin,Fígado,Não,N/A,Trata problemas da coxa
+LR11,Yin Lian,"Na região medial da coxa, 7 cun acima da borda medial da patela",Jue Yin,Fígado,Não,N/A,Trata problemas da coxa
+LR12,Ji Mai,"Na região inguinal, 1 cun lateral ao púbis",Jue Yin,Fígado,Não,N/A,Trata problemas urogenitais
+LR13,Zhang Men,"Na região abdominal, 1 cun lateral ao umbigo",Jue Yin,Fígado,Não,N/A,Ponto Mu do Baço
+LR14,Qi Men,"Na região abdominal, 2 cun lateral ao umbigo",Jue Yin,Fígado,Não,N/A,Ponto Mu do Fígado
+DU1,Chang Qiang,"Na região perineal, no ponto médio entre o ânus e o cóccix",Não,Não,Du Mai,Não,N/A,Ponto de partida do Du Mai
+DU2,Yao Shu,"Na região sacral, no ponto médio entre o cóccix e o ânus",Não,Não,Du Mai,Não,N/A,Trata problemas lombares
+DU3,Yao Yang Guan,"Na região lombar, no nível do processo espinhoso da quarta vértebra lombar",Não,Não,Du Mai,Não,N/A,Trata problemas lombares
+DU4,Ming Men,"Na região lombar, no nível do processo espinhoso da segunda vértebra lombar",Não,Não,Du Mai,Não,N/A,Fortalece os rins
+DU5,Xuán Shu,"Na região lombar, no nível do processo espinhoso da primeira vértebra lombar",Não,Não,Du Mai,Não,N/A,Trata problemas lombares
+DU6,Ji Zhong,"Na região torácica, no nível do processo espinhoso da décima primeira vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU7,Zhong Shu,"Na região torácica, no nível do processo espinhoso da décima vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU8,Jin Suo,"Na região torácica, no nível do processo espinhoso da nona vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU9,Zhi Yang,"Na região torácica, no nível do processo espinhoso da sétima vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU10,Ling Tai,"Na região torácica, no nível do processo espinhoso da sexta vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU11,Shendao,"Na região torácica, no nível do processo espinhoso da quinta vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU12,Shen Zhu,"Na região torácica, no nível do processo espinhoso da terceira vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU13,Tao Dao,"Na região torácica, no nível do processo espinhoso da primeira vértebra torácica",Não,Não,Du Mai,Não,N/A,Trata problemas torácicos
+DU14,Dazhui,"Na região cervical, no nível do processo espinhoso da sétima vértebra cervical",Não,Não,Du Mai,Não,N/A,Ponto de encontro com os meridianos Yang
+DU15,Ya Men,"Na região cervical, no nível do processo espinhoso da primeira vértebra cervical",Não,Não,Du Mai,Não,N/A,Trata problemas cervicais
+DU16,Feng Fu,"Na região cervical, na depressão abaixo do osso occipital",Não,Não,Du Mai,Não,N/A,Trata cefaleia e rigidez do pescoço
+DU17,Nao Hu,"Na região cervical, 1,5 cun acima de DU16",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU18,Qiang Jian,"Na região cervical, 1,5 cun acima de DU17",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU19,Hou Ding,"Na região cervical, 1,5 cun acima de DU18",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU20,Bai Hui,"No topo da cabeça, no ponto médio entre as orelhas",Não,Não,Du Mai,Não,N/A,Ponto de encontro com todos os meridianos Yang
+DU21,Qian Ding,"Na região frontal, 1,5 cun acima de DU20",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU22,Xin Hui,"Na região frontal, 1,5 cun acima de DU21",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU23,Shang Xing,"Na região frontal, 1,5 cun acima de DU22",Não,Não,Du Mai,Não,N/A,Trata cefaleia
+DU24,Shenting,"Na região frontal, 1,5 cun acima de DU23",Não,Não,Du Mai,Não,N/A,Trata cefaleia e problemas mentais
+REN1,Hui Yin,"Na região perineal, no ponto médio entre o ânus e os genitais",Não,Não,Ren Mai,Não,N/A,Ponto de partida do Ren Mai
+REN2,Qu Gu,"Na região púbica, 1 cun acima do púbis",Não,Não,Ren Mai,Não,N/A,Trata problemas urogenitais
+REN3,Zhong Ji,"Na região abdominal, 4 cun abaixo do umbigo",Não,Não,Ren Mai,Não,N/A,Ponto Mu da Bexiga
+REN4,Guanyuan,"Na região abdominal, 3 cun abaixo do umbigo",Não,Não,Ren Mai,Não,N/A,Fortalece o Qi e o Sangue
+REN5,Shimen,"Na região abdominal, 2 cun abaixo do umbigo",Não,Não,Ren Mai,Não,N/A,Ponto Mu do Intestino Delgado
+REN6,Qihai,"Na região abdominal, 1,5 cun abaixo do umbigo",Não,Não,Ren Mai,Não,N/A,Fortalece o Qi
+REN7,Yinjiao,"Na região abdominal, 1 cun abaixo do umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas abdominais
+REN8,Shenque,"No umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas abdominais
+REN9,Shuifen,"Na região abdominal, 1 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas abdominais
+REN10,Xiawan,"Na região abdominal, 2 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas digestivos
+REN11,Jianli,"Na região abdominal, 3 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas digestivos
+REN12,Zhongwan,"Na região abdominal, 4 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Ponto Mu do Estômago
+REN13,Shangwan,"Na região abdominal, 5 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Trata problemas digestivos
+REN14,Juque,"Na região abdominal, 6 cun acima do umbigo",Não,Não,Ren Mai,Não,N/A,Ponto Mu do Coração
+REN15,Jiuwei,"Na região torácica, 1 cun abaixo do esterno",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN16,Zhongting,"Na região torácica, no nível do quinto espaço intercostal",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN17,Shanzhong,"Na região torácica, no nível do quarto espaço intercostal",Não,Não,Ren Mai,Não,N/A,Ponto Mu do Pericárdio
+REN18,Yutang,"Na região torácica, no nível do terceiro espaço intercostal",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN19,Zigong,"Na região torácica, no nível do segundo espaço intercostal",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN20,Huagai,"Na região torácica, no nível do primeiro espaço intercostal",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN21,Xuanji,"Na região torácica, no nível da fúrcula esternal",Não,Não,Ren Mai,Não,N/A,Trata problemas torácicos
+REN22,Tiantu,"Na região cervical, na depressão acima do esterno",Não,Não,Ren Mai,Não,N/A,Trata problemas respiratórios
+REN23,Lianquan,"Na região cervical, na depressão acima do osso hióide",Não,Não,Ren Mai,Não,N/A,Trata problemas na garganta
+REN24,Chengjiang,"No centro do queixo",Não,Não,Ren Mai,Não,N/A,Trata problemas faciais
+EX-HN1,Yin Tang,No ponto médio entre as sobrancelhas,Não,Não,Não,N/A,Trata cefaleia e insônia
+EX-HN2,Tai Yang,"Na região temporal, na depressão entre o olho e a sobrancelha",Não,Não,Não,N/A,Trata cefaleia e problemas oculares
+EX-HN3,Yu Yao,No ponto médio da sobrancelha,Não,Não,Não,N/A,Trata problemas oculares
+EX-HN4,Si Shen Cong,Quatro pontos ao redor do ponto DU20 (Bai Hui),Não,Não,Não,N/A,Trata cefaleia e insônia
+EX-HN5,Jiu Wei,"Na região abdominal, 1 cun abaixo do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-HN6,Qi Xue,"Na região abdominal, 2 cun abaixo do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-HN7,Ge Shu,"Na região abdominal, 3 cun abaixo do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-HN8,Hua Tuo Jia Ji,"Paralelo à coluna vertebral, 0,5 cun lateral a cada lado",Não,Não,Não,N/A,Trata problemas da coluna
+EX-LE1,Heding,No centro da patela,Não,Não,Não,N/A,Trata problemas do joelho
+EX-LE2,Xi Yan,Na depressão lateral ao tendão patelar,Não,Não,Não,N/A,Trata problemas do joelho
+EX-LE3,Lan Wei,"Na região abdominal, 2 cun abaixo do umbigo, 2 cun lateral à linha média",Não,Não,Não,N/A,Trata apendicite
+EX-LE4,Dan Nang,"Na região abdominal, 2 cun abaixo do umbigo, 4 cun lateral à linha média",Não,Não,Não,N/A,Trata problemas da vesícula biliar
+EX-LE5,Nei Ting,Entre o segundo e terceiro metatarsos,Não,Não,Não,N/A,Trata problemas do pé
+EX-LE6,Yong Quan,"Na planta do pé, no terço anterior",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE1,Shi Xuan,Nas pontas dos dez dedos das mãos,Não,Não,Não,N/A,Trata emergências médicas
+EX-UE2,Ba Xie,Entre os dedos das mãos,Não,Não,Não,N/A,Trata problemas das mãos
+EX-UE3,Si Feng,Nas articulações interfalângicas dos dedos,Não,Não,Não,N/A,Trata problemas das mãos
+EX-UE4,Lao Gong,"Na palma da mão, entre o segundo e terceiro metacarpo",Não,Não,Não,N/A,Trata problemas das mãos
+EX-UE5,Da Zhui,"Na região cervical, abaixo da sétima vértebra cervical",Não,Não,Não,N/A,Trata problemas do pescoço
+EX-UE6,Jian Jing,"Na região do ombro, no ponto médio entre o acrômio e a sétima vértebra cervical",Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE7,Jian Wai Shu,"Na região do ombro, 2 cun lateral ao bordo inferior do processo espinhoso da primeira vértebra torácica",Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE8,Jian Zhong Shu,"Na região do ombro, 2 cun lateral ao bordo inferior do processo espinhoso da sétima vértebra cervical",Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE9,Tian Zong,No centro da fossa infraespinhal,Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE10,Bing Feng,"Na fossa supraespinhal, diretamente acima da metade da espinha da escápula",Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE11,Qu Yuan,Na borda medial da fossa supraespinhal,Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE12,Jian Wai Shu,2 cun lateral ao bordo inferior do processo espinhoso da primeira vértebra torácica,Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE13,Jian Zhong Shu,2 cun lateral ao bordo inferior do processo espinhoso da sétima vértebra cervical,Não,Não,Não,N/A,Trata problemas do ombro
+EX-UE14,Tian Chuang,"Posterior ao músculo esternocleidomastóideo, no nível da proeminência da laringe",Não,Não,Não,N/A,Trata problemas da garganta
+EX-UE15,Tian Rong,"Posterior ao ângulo da mandíbula, na borda anterior do músculo esternocleidomastóideo",Não,Não,Não,N/A,Trata problemas de audição
+EX-UE16,Quan Liao,"Abaixo do arco zigomático, na depressão anterior ao côndilo da mandíbula",Não,Não,Não,N/A,Trata dor facial
+EX-UE17,Ting Gong,"Anterior ao trago, na depressão formada quando a boca está aberta",Não,Não,Não,N/A,Trata problemas auditivos
+EX-UE18,Jing Ming,"No canto interno do olho, na depressão acima do canto interno do olho",Não,Não,Não,N/A,Trata problemas oculares
+EX-UE19,Zan Zhu,"Na extremidade medial da sobrancelha, na incisura supraorbital",Não,Não,Não,N/A,Trata problemas oculares
+EX-UE20,Mei Chong,"Diretamente acima do ponto médio da sobrancelha, 0,5 cun na linha anterior do cabelo",Não,Não,Não,N/A,Trata problemas oculares
+EX-UE21,Qu Chai,"0,5 cun lateral à linha média, 0,5 cun dentro da linha anterior do cabelo",Não,Não,Não,N/A,Trata cefaleia
+EX-UE22,Wu Chu,"1 cun atrás de BL4, 0,5 cun lateral à linha média",Não,Não,Não,N/A,Trata cefaleia
+EX-UE23,Cheng Guang,"1,5 cun posterior à linha anterior do cabelo, 0,5 cun lateral à linha média",Não,Não,Não,N/A,Trata problemas nasais
+EX-UE24,Tong Tian,"1 cun lateral à linha média, 4 cun posterior à linha anterior do cabelo",Não,Não,Não,N/A,Trata problemas nasais
+EX-UE25,Luo Que,"1,5 cun lateral à linha média, no topo da cabeça, 5,5 cun posterior à linha anterior do cabelo",Não,Não,Não,N/A,Trata problemas nasais
+EX-UE26,Yu Zhen,"1,5 cun lateral à linha média, 6 cun posterior à linha anterior do cabelo",Não,Não,Não,N/A,Trata problemas de visão
+EX-UE27,Tian Zhu,"Na borda posterior do pescoço, 1 cun lateral à linha média, na depressão abaixo do osso occipital",Não,Não,Não,N/A,Trata rigidez do pescoço
+EX-UE28,Da Zhu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra torácica",Não,Não,Não,N/A,Trata problemas torácicos
+EX-UE29,Feng Men,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra torácica",Não,Não,Não,N/A,Trata resfriados e gripes
+EX-UE30,Fei Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra torácica",Não,Não,Não,N/A,Trata problemas respiratórios
+EX-UE31,Jue Yin Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra torácica",Não,Não,Não,N/A,Trata problemas cardíacos
+EX-UE32,Xin Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra torácica",Não,Não,Não,N/A,Trata problemas cardíacos
+EX-UE33,Du Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da sexta vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE34,Ge Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da sétima vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE35,Gan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da nona vértebra torácica",Não,Não,Não,N/A,Trata problemas hepáticos
+EX-UE36,Dan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima vértebra torácica",Não,Não,Não,N/A,Trata problemas da vesícula biliar
+EX-UE37,Pi Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima primeira vértebra torácica",Não,Não,Não,N/A,Trata problemas do baço
+EX-UE38,Wei Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da décima segunda vértebra torácica",Não,Não,Não,N/A,Trata problemas do estômago
+EX-UE39,San Jiao Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra lombar",Não,Não,Não,N/A,Trata problemas do triplo aquecedor
+EX-UE40,Shen Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra lombar",Não,Não,Não,N/A,Trata problemas renais
+EX-UE41,Qi Hai Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra lombar",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE42,Da Chang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra lombar",Não,Não,Não,N/A,Trata problemas intestinais
+EX-UE43,Guan Yuan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra lombar",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE44,Xiao Chang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra sacral",Não,Não,Não,N/A,Trata problemas intestinais
+EX-UE45,Pang Guang Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra sacral",Não,Não,Não,N/A,Trata problemas da bexiga
+EX-UE46,Zhong Lv Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra sacral",Não,Não,Não,N/A,Trata problemas lombares
+EX-UE47,Bai Huan Shu,"1,5 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra sacral",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE48,Shang Liao,"Na região sacral, no primeiro forame sacral",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE49,Ci Liao,"Na região sacral, no segundo forame sacral",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE50,Zhong Liao,"Na região sacral, no terceiro forame sacral",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE51,Xia Liao,"Na região sacral, no quarto forame sacral",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE52,Hui Yang,"Na região sacral, 0,5 cun lateral ao cóccix",Não,Não,Não,N/A,Trata problemas pélvicos
+EX-UE53,Cheng Fu,"Na região glútea, no meio da dobra glútea",Não,Não,Não,N/A,Trata problemas da coxa
+EX-UE54,Yin Men,"Na região posterior da coxa, 6 cun acima da dobra poplítea",Não,Não,Não,N/A,Trata problemas da coxa
+EX-UE55,Fu Xi,"Na região posterior da coxa, 9 cun acima da dobra poplítea",Não,Não,Não,N/A,Trata problemas da coxa
+EX-UE56,Wei Yang,"Na região posterior do joelho, na dobra poplítea",Não,Não,Não,N/A,Trata problemas do joelho
+EX-UE57,Wei Zhong,No centro da dobra poplítea,Não,Não,Não,N/A,Trata problemas lombares
+EX-UE58,Fu Fen,"3 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra torácica",Não,Não,Não,N/A,Trata problemas torácicos
+EX-UE59,Po Hu,"3 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra torácica",Não,Não,Não,N/A,Trata problemas respiratórios
+EX-UE60,Gao Huang,"3 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra torácica",Não,Não,Não,N/A,Trata problemas respiratórios
+EX-UE61,Shen Tang,"3 cun lateral à linha média, no nível do processo espinhoso da quinta vértebra torácica",Não,Não,Não,N/A,Trata problemas cardíacos
+EX-UE62,Yi Xi,"3 cun lateral à linha média, no nível do processo espinhoso da sexta vértebra torácica",Não,Não,Não,N/A,Trata problemas torácicos
+EX-UE63,Ge Guan,"3 cun lateral à linha média, no nível do processo espinhoso da sétima vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE64,Hun Men,"3 cun lateral à linha média, no nível do processo espinhoso da nona vértebra torácica",Não,Não,Não,N/A,Trata problemas emocionais
+EX-UE65,Yang Gang,"3 cun lateral à linha média, no nível do processo espinhoso da décima vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE66,Yi She,"3 cun lateral à linha média, no nível do processo espinhoso da décima primeira vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE67,Wei Cang,"3 cun lateral à linha média, no nível do processo espinhoso da décima segunda vértebra torácica",Não,Não,Não,N/A,Trata problemas digestivos
+EX-UE68,Huang Men,"3 cun lateral à linha média, no nível do processo espinhoso da primeira vértebra lombar",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE69,Zhi Shi,"3 cun lateral à linha média, no nível do processo espinhoso da segunda vértebra lombar",Não,Não,Não,N/A,Trata problemas lombares
+EX-UE70,Bao Huang,"3 cun lateral à linha média, no nível do processo espinhoso da terceira vértebra lombar",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE71,Zhi Bian,"3 cun lateral à linha média, no nível do processo espinhoso da quarta vértebra lombar",Não,Não,Não,N/A,Trata problemas lombares
+EX-UE72,He Yang,"Na região posterior da perna, 2 cun abaixo da dobra poplítea",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE73,Cheng Jin,"Na região posterior da perna, 5 cun abaixo da dobra poplítea",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE74,Cheng Shan,"Na região posterior da perna, no ponto médio entre a dobra poplítea e o tendão de Aquiles",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE75,Fei Yang,"7 cun acima do maléolo lateral, na borda lateral da fíbula",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE76,Fu Yang,"3 cun acima do maléolo lateral, na borda lateral da fíbula",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE77,Kun Lun,Na depressão entre o maléolo lateral e o tendão de Aquiles,Não,Não,Não,N/A,Trata problemas do tornozelo
+EX-UE78,Pu Can,"Na borda lateral do pé, 1 cun abaixo do maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE79,Shen Mai,"Na borda lateral do pé, 0,5 cun abaixo do maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE80,Jin Men,"Na borda lateral do pé, 0,5 cun acima do maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE81,Jing Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE82,Shu Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE83,Zu Tong Gu,"Na borda lateral do pé, na depressão distal ao maléolo lateral",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE84,Zhi Yin,"No lado lateral do dedo mínimo do pé, 0,1 cun proximal ao ângulo ungueal",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE85,Yong Quan,"Na planta do pé, no terço anterior",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE86,Ran Gu,"Na planta do pé, no terço médio",Não,Não,Não,N/A,Trata problemas do pé
+EX-UE87,Tai Xi,"Na região medial do tornozelo, na depressão entre o maléolo medial e o tendão de Aquiles",Não,Não,Não,N/A,Trata problemas do tornozelo
+EX-UE88,Da Zhong,"Na região medial do tornozelo, 1 cun abaixo de KI3",Não,Não,Não,N/A,Trata problemas do tornozelo
+EX-UE89,Shui Quan,"Na região medial do tornozelo, 1 cun abaixo de KI4",Não,Não,Não,N/A,Trata problemas do tornozelo
+EX-UE90,Zhao Hai,"Na região medial do tornozelo, 1 cun abaixo do maléolo medial",Não,Não,Não,N/A,Trata problemas do tornozelo
+EX-UE91,Fu Liu,"Na região medial da perna, 2 cun acima do maléolo medial",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE92,Jiao Xin,"Na região medial da perna, 2 cun acima de KI7",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE93,Zhu Bin,"Na região medial da perna, 5 cun acima do maléolo medial",Não,Não,Não,N/A,Trata problemas da perna
+EX-UE94,Yin Gu,"Na região medial da coxa, 3 cun acima da borda medial da patela",Não,Não,Não,N/A,Trata problemas da coxa
+EX-UE95,Heng Gu,"Na região inguinal, 5 cun lateral ao púbis",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE96,Da He,"Na região inguinal, 4 cun lateral ao púbis",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE97,Qi Xue,"Na região inguinal, 3 cun lateral ao púbis",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE98,Si Man,"Na região inguinal, 2 cun lateral ao púbis",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE99,Zhong Zhu,"Na região inguinal, 1 cun lateral ao púbis",Não,Não,Não,N/A,Trata problemas urogenitais
+EX-UE100,Huang Shu,"Na região abdominal, 0,5 cun lateral ao umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE101,Shang Qu,"Na região abdominal, 1 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE102,Shi Guan,"Na região abdominal, 2 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE103,Yin Du,"Na região abdominal, 3 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE104,Fu Tong Gu,"Na região abdominal, 4 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE105,You Men,"Na região abdominal, 5 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE106,Bu Lang,"Na região abdominal, 6 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE107,Shen Feng,"Na região abdominal, 7 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE108,Ling Xu,"Na região abdominal, 8 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE109,Shen Cang,"Na região abdominal, 9 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE110,Yu Zhong,"Na região abdominal, 10 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+EX-UE111,Shu Fu,"Na região abdominal, 11 cun acima do umbigo",Não,Não,Não,N/A,Trata problemas abdominais
+E36,Zu San Li,Face lateral da perna,Yang Ming,Estômago,Chong Mai,Tonifica,Ponto Mar e Terra

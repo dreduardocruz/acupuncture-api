@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Pesquisa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Voltar para a página inicial</a>
+        <h1>Resultados da Pesquisa</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nome Chinês</th>
+                    <th>Localização</th>
+                    <th>Nível Energético</th>
+                    <th>Meridiano</th>
+                    <th>Canal Maravilhoso</th>
+                    <th>Função CM</th>
+                    <th>Particularidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for point in points %}
+                <tr>
+                    <td>{{ point.name }}</td>
+                    <td>{{ point.chinese_name }}</td>
+                    <td>{{ point.location }}</td>
+                    <td>{{ point.energy_level }}</td>
+                    <td>{{ point.meridian }}</td>
+                    <td>{{ point.opens_channels }}</td>
+                    <td>{{ point.closes_channels }}</td>
+                    <td>{{ point.particularity }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html> 
