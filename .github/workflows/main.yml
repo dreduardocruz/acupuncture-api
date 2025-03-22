@@ -12,10 +12,15 @@ jobs:
     runs-on: self-hosted
     
     steps:
+    - name: Clean workspace
+      run: |
+        rm -rf ./* || true
+        rm -rf ./.* || true
+    
     - uses: actions/checkout@v2
       with:
-        submodules: false  # Don't fetch submodules
-        clean: true       # Clean the workspace before checkout
+        clean: true
+        fetch-depth: 1
     
     - name: Set up Python
       uses: actions/setup-python@v2
