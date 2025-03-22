@@ -2,8 +2,10 @@ FROM python:3.9
 
 WORKDIR /app
 
+# Install pre-built wheels for numpy and other dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --prefer-binary numpy && \
+    pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
