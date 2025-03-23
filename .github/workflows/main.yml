@@ -38,33 +38,22 @@ jobs:
         pip install --only-binary :all: pandas==2.0.3
         pip install -r requirements.txt
     
-    - name: Setup Docker Runtime
+    - name: Setup Docker
       run: |
-        # Install Colima if not already installed
-        brew list colima || brew install colima
-        # Stop any running instance
-        colima stop || true
-        # Start with specific settings
-        colima start --arch aarch64 --memory 4 --disk 100
-        # Export Docker socket path
-        export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
-        # Wait for runtime to be ready
-        for i in {1..30}; do
-          if colima status | grep 'Running'; then
-            echo "Docker runtime is ready"
+        # Install Docker Desktop
+        brew install --cask docker
+        # Start Docker Desktop
+        open -a Docker
+        # Wait for Docker to start
+        for i in {1..60}; do
+          if docker info > /dev/null 2>&1; then
+            echo "Docker is running"
             break
           fi
-          echo "Waiting for Docker runtime... ($i/30)"
+          echo "Waiting for Docker... ($i/60)"
           sleep 5
         done
-        # Verify Docker connection
-        docker info
     
     - name: Build Docker image
-      env:
-        DOCKER_HOST: "unix://${HOME}/.colima/default/docker.sock"
       run: |
-        DOCKER_BUILDKIT=1 docker build -t acupuncture-api .
-        # Add your docker push commands here if needed
-    
-    # Add deployment steps as needed
+        docker build -t acupuncture-api .
