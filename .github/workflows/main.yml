@@ -38,6 +38,15 @@ jobs:
         pip install --only-binary :all: pandas==2.0.3
         pip install -r requirements.txt
     
+    - name: Start Docker daemon
+      run: |
+        open -a Docker
+        # Wait for Docker to start
+        while ! docker system info > /dev/null 2>&1; do
+          sleep 5
+          echo "Waiting for Docker to start..."
+        done
+    
     - name: Build Docker image
       run: |
         docker build -t acupuncture-api .
