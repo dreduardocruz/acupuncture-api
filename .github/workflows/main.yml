@@ -40,10 +40,7 @@ jobs:
     
     - name: Setup Docker permissions
       run: |
-        if ! groups | grep -q 'docker'; then
-          sudo dscl . -append /Groups/docker GroupMembership $USER
-        fi
-        newgrp docker
+        sudo docker ps > /dev/null 2>&1 || (sudo dscl . -append /Groups/docker GroupMembership $USER || true)
     
     - name: Build and push Docker image
       run: |
