@@ -62,8 +62,25 @@ jobs:
         docker login
         echo '{ "credsStore": "osxkeychain" }' > ~/.docker/config.json
         
+    - name: Reset Docker
+      run: |
+        docker buildx rm -f || true
+        docker system prune -af
+        killall Docker || true
+        open -a Docker
+        # Wait for Docker to start
+        for i in {1..60}; do
+          if docker info > /dev/null 2>&1; then
+            echo "Docker is running"
+            break
+          fi
+          echo "Waiting for Docker... ($i/60)"
+          sleep 5
+        done
+        
     - name: Build Docker image
       run: |
+        docker buildx create --use --name fresh-builder
         docker build --no-cache -t acupuncture-api .
     
     - name: Google Cloud Auth
