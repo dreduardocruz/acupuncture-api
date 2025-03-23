@@ -93,7 +93,7 @@ jobs:
     - name: Build Docker image
       run: |
         docker buildx rm fresh-builder || true
-        docker buildx create --use --name fresh-builder
+        docker buildx create --use --name fresh-builder --driver docker-container
         docker build --no-cache -t acupuncture-api .
     
     - name: Google Cloud Auth
