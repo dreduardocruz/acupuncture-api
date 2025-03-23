@@ -40,26 +40,26 @@ jobs:
     
     - name: Start Docker daemon
       run: |
-        # Kill any existing Docker processes
-        pkill Docker || true
-        # Start Docker fresh
+        # Restart Docker Desktop
+        osascript -e 'quit app "Docker"'
+        sleep 5
         open -a Docker
         # Wait for Docker to start and be ready
-        for i in {1..30}; do
+        for i in {1..60}; do
           if docker info > /dev/null 2>&1; then
             echo "Docker is running"
             break
           fi
-          echo "Waiting for Docker to start... ($i/30)"
+          echo "Waiting for Docker to start... ($i/60)"
           sleep 10
         done
-        # Ensure Docker is running
+        # Verify Docker is running
         docker ps
     
     - name: Build Docker image
       run: |
-        # Ensure we're using the correct Docker context
-        docker context use default
+        # Wait a bit more for Docker to be fully ready
+        sleep 10
         docker build -t acupuncture-api .
         # Add your docker push commands here if needed
     
