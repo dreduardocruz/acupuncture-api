@@ -57,3 +57,27 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t acupuncture-api .
+    
+    - name: Setup Google Cloud CLI
+      uses: google-github-actions/setup-gcloud@v0
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        export_default_credentials: true
+    
+    - name: Configure Docker for GCP
+      run: |
+        gcloud auth configure-docker
+    
+    - name: Build and Push Docker image
+      run: |
+        docker build -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api .
+        docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api
+    
+    - name: Deploy to Cloud Run
+      run: |
+        gcloud run deploy acupuncture-api \
+          --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api \
+          --platform managed \
+          --region us-central1 \
+          --allow-unauthenticated
