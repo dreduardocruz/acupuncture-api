@@ -46,6 +46,8 @@ jobs:
         colima stop || true
         # Start with specific settings
         colima start --arch aarch64 --memory 4 --disk 100
+        # Export Docker socket path
+        export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
         # Wait for runtime to be ready
         for i in {1..30}; do
           if colima status | grep 'Running'; then
@@ -59,6 +61,8 @@ jobs:
         docker info
     
     - name: Build Docker image
+      env:
+        DOCKER_HOST: "unix://${HOME}/.colima/default/docker.sock"
       run: |
         DOCKER_BUILDKIT=1 docker build -t acupuncture-api .
         # Add your docker push commands here if needed
