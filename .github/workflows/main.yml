@@ -64,9 +64,15 @@ jobs:
         
     - name: Reset Docker
       run: |
-        docker buildx rm -f || true
-        docker system prune -af
-        killall Docker || true
+        # Stop Docker completely
+        osascript -e 'quit app "Docker"'
+        sleep 5
+        
+        # Remove problematic files
+        sudo rm -rf ~/Library/Containers/com.docker.docker/Data/vms/*
+        sudo rm -rf ~/Library/Containers/com.docker.docker/Data/docker/*
+        
+        # Start Docker fresh
         open -a Docker
         # Wait for Docker to start
         for i in {1..60}; do
