@@ -31,8 +31,8 @@ jobs:
     
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install --only-binary :all: numpy
+        python -m pip install --upgrade pip wheel setuptools
+        pip install --platform macosx_11_0_arm64 --no-deps --only-binary :all: numpy==1.24.3
         pip install -r requirements.txt
     
     - name: Setup Docker permissions
