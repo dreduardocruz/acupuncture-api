@@ -74,9 +74,18 @@ jobs:
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v1
     
+    - name: Set up Artifact Registry
+      run: |
+        PROJECT_ID=$(gcloud config get-value project)
+        gcloud artifacts repositories create acupuncture-api \
+          --repository-format=docker \
+          --location=us-central1 \
+          --description="Docker repository for Acupuncture API" || true
+        
     - name: Configure Docker for GCP
       run: |
         gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
+        gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev
     
     - name: Build and Push Docker image
       run: |
