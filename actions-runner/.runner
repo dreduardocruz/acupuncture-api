@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 2,
-  "agentName": "Eduardo Cruz",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus6.actions.githubusercontent.com/9UsTCQhXVMEt7f5ooNdooPywaADLOlZxIaDZb3PX8X6tUwBj8t/",
-  "gitHubUrl": "https://github.com/dreduardocruz/acupuncture-api",
-  "workFolder": "_work"
-}
