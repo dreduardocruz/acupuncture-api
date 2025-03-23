@@ -38,10 +38,6 @@ jobs:
         pip install --only-binary :all: pandas==2.0.3
         pip install -r requirements.txt
     
-    - name: Setup Docker permissions
-      run: |
-        sudo docker ps > /dev/null 2>&1 || (sudo dscl . -append /Groups/docker GroupMembership $USER || true)
-    
     - name: Build and push Docker image
       run: |
         sudo docker build -t acupuncture-api .
