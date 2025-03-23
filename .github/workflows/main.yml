@@ -39,28 +39,20 @@ jobs:
         pip install -r requirements.txt
     
     - name: Start Docker daemon
-      env:
-        DOCKER_HOST: unix:///Users/eduardocruz/.docker/run/docker.sock
       run: |
-        # Restart Docker Desktop
-        osascript -e 'quit app "Docker"'
-        sleep 5
-        open -a Docker
+        # Start Docker daemon
+        sudo dockerd &
         # Wait for Docker to start and be ready
-        for i in {1..60}; do
+        for i in {1..30}; do
           if docker info > /dev/null 2>&1; then
             echo "Docker is running"
             break
           fi
-          echo "Waiting for Docker to start... ($i/60)"
-          sleep 10
+          echo "Waiting for Docker to start... ($i/30)"
+          sleep 5
         done
-        # Verify Docker socket exists
-        ls -la ~/Library/Containers/com.docker.docker/Data/docker.sock
     
     - name: Build Docker image
-      env:
-        DOCKER_HOST: unix:///Users/eduardocruz/.docker/run/docker.sock
       run: |
         docker build -t acupuncture-api .
         # Add your docker push commands here if needed
