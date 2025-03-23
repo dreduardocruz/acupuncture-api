@@ -40,7 +40,7 @@ jobs:
     
     - name: Start Docker daemon
       env:
-        DOCKER_HOST: unix:///var/run/docker.sock
+        DOCKER_HOST: unix:///Users/eduardocruz/.docker/run/docker.sock
       run: |
         # Restart Docker Desktop
         osascript -e 'quit app "Docker"'
@@ -55,13 +55,12 @@ jobs:
           echo "Waiting for Docker to start... ($i/60)"
           sleep 10
         done
-        # Verify Docker is running and socket permissions
-        ls -la /var/run/docker.sock
-        docker ps
+        # Verify Docker socket exists
+        ls -la ~/Library/Containers/com.docker.docker/Data/docker.sock
     
     - name: Build Docker image
       env:
-        DOCKER_HOST: unix:///var/run/docker.sock
+        DOCKER_HOST: unix:///Users/eduardocruz/.docker/run/docker.sock
       run: |
         docker build -t acupuncture-api .
         # Add your docker push commands here if needed
