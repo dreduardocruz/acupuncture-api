@@ -76,7 +76,7 @@ jobs:
     
     - name: Configure Docker for GCP
       run: |
-        gcloud auth configure-docker
+        gcloud auth configure-docker gcr.io --quiet
     
     - name: Build and Push Docker image
       run: |
@@ -84,7 +84,8 @@ jobs:
         docker buildx create --use
         docker buildx build --platform linux/amd64 \
           -t gcr.io/${PROJECT_ID}/acupuncture-api \
-          --push .
+          --push \
+          --build-arg DOCKER_BUILDKIT=1 .
     
     - name: Deploy to Cloud Run
       run: |
