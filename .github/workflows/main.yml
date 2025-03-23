@@ -53,7 +53,13 @@ jobs:
     
     - name: Configure Docker
       run: |
+        # Install Docker credential helper
+        brew install docker-credential-helper
+        # Configure Docker to use plain text credentials temporarily
         mkdir -p ~/.docker
+        echo '{ "credsStore": "" }' > ~/.docker/config.json
+        # Log in to Docker Hub without credential store
+        docker login
         echo '{ "credsStore": "osxkeychain" }' > ~/.docker/config.json
         
     - name: Build Docker image
