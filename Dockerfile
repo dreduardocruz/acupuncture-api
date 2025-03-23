@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir --prefer-binary numpy && \
 
 COPY . .
 
-EXPOSE 5001
+ENV PORT=8080
+EXPOSE 8080
 
 CMD ["python", "app.py"]
