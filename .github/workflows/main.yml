@@ -80,8 +80,10 @@ jobs:
     
     - name: Build and Push Docker image
       run: |
-        docker buildx build -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api . --platform linux/amd64
-        docker push gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api
+        docker buildx create --use
+        docker buildx build --platform linux/amd64 \
+          -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api \
+          --push .
     
     - name: Deploy to Cloud Run
       run: |
