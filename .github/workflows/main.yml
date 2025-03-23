@@ -38,17 +38,17 @@ jobs:
         pip install --only-binary :all: pandas==2.0.3
         pip install -r requirements.txt
     
-    - name: Start Docker daemon
+    - name: Setup Docker Runtime
       run: |
-        # Start Docker daemon
-        sudo dockerd &
-        # Wait for Docker to start and be ready
+        brew install colima
+        colima start
+        # Wait for Colima to be ready
         for i in {1..30}; do
           if docker info > /dev/null 2>&1; then
-            echo "Docker is running"
+            echo "Docker runtime is ready"
             break
           fi
-          echo "Waiting for Docker to start... ($i/30)"
+          echo "Waiting for Docker runtime... ($i/30)"
           sleep 5
         done
     
