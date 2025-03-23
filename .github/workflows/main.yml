@@ -39,6 +39,8 @@ jobs:
         pip install -r requirements.txt
     
     - name: Start Docker daemon
+      env:
+        DOCKER_HOST: unix:///var/run/docker.sock
       run: |
         # Restart Docker Desktop
         osascript -e 'quit app "Docker"'
@@ -53,13 +55,14 @@ jobs:
           echo "Waiting for Docker to start... ($i/60)"
           sleep 10
         done
-        # Verify Docker is running
+        # Verify Docker is running and socket permissions
+        ls -la /var/run/docker.sock
         docker ps
     
     - name: Build Docker image
+      env:
+        DOCKER_HOST: unix:///var/run/docker.sock
       run: |
-        # Wait a bit more for Docker to be fully ready
-        sleep 10
         docker build -t acupuncture-api .
         # Add your docker push commands here if needed
     
