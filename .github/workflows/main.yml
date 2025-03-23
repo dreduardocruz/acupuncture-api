@@ -64,25 +64,31 @@ jobs:
         
     - name: Reset Docker
       run: |
-        # Stop Docker completely
-        osascript -e 'quit app "Docker"'
-        sleep 5
+        # Force stop all containers
+        docker ps -aq | xargs -r docker rm -f || true
         
-        # Remove problematic files
-        sudo rm -rf ~/Library/Containers/com.docker.docker/Data/vms/*
-        sudo rm -rf ~/Library/Containers/com.docker.docker/Data/docker/*
+        # Force quit Docker
+        pkill -9 Docker || true
+        pkill -9 docker || true
+        
+        # Wait to ensure Docker is fully stopped
+        sleep 10
         
         # Start Docker fresh
         open -a Docker
+        
         # Wait for Docker to start
-        for i in {1..60}; do
+        for i in {1..90}; do
           if docker info > /dev/null 2>&1; then
             echo "Docker is running"
             break
           fi
-          echo "Waiting for Docker... ($i/60)"
+          echo "Waiting for Docker... ($i/90)"
           sleep 5
         done
+        
+        # Reset Docker builder
+        docker builder prune -f || true
         
     - name: Build Docker image
       run: |
