@@ -16,3 +16,4 @@ __pycache__/
 .vscode/
 *.log
 *.sqlite3
+actions-runner/
