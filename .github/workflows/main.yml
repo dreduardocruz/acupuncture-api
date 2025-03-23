@@ -41,14 +41,19 @@ jobs:
     - name: Start Docker daemon
       run: |
         open -a Docker
-        # Wait for Docker to start
-        while ! docker system info > /dev/null 2>&1; do
-          sleep 5
-          echo "Waiting for Docker to start..."
+        # Wait for Docker to start and be ready
+        for i in {1..30}; do
+          if docker info > /dev/null 2>&1; then
+            echo "Docker is running"
+            break
+          fi
+          echo "Waiting for Docker to start... ($i/30)"
+          sleep 10
         done
     
     - name: Build Docker image
       run: |
+        docker info
         docker build -t acupuncture-api .
         # Add your docker push commands here if needed
     
