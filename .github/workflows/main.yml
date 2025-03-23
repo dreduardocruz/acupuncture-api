@@ -40,12 +40,14 @@ jobs:
     
     - name: Setup Docker permissions
       run: |
-        sudo usermod -aG docker $USER
+        if ! groups | grep -q 'docker'; then
+          sudo dscl . -append /Groups/docker GroupMembership $USER
+        fi
         newgrp docker
     
     - name: Build and push Docker image
       run: |
-        docker build -t acupuncture-api .
+        sudo docker build -t acupuncture-api .
         # Add your docker push commands here if needed
     
     # Add deployment steps as needed
