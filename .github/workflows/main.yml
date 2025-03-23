@@ -51,9 +51,14 @@ jobs:
           sleep 5
         done
     
+    - name: Configure Docker
+      run: |
+        mkdir -p ~/.docker
+        echo '{ "credsStore": "osxkeychain" }' > ~/.docker/config.json
+        
     - name: Build Docker image
       run: |
-        docker build -t acupuncture-api .
+        docker build --no-cache -t acupuncture-api .
     
     - name: Setup Google Cloud CLI
       uses: google-github-actions/setup-gcloud@v0
