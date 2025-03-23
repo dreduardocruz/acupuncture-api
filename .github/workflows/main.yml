@@ -66,18 +66,17 @@ jobs:
       run: |
         docker build --no-cache -t acupuncture-api .
     
-    - name: Setup Google Cloud CLI
-      - name: Google Cloud Auth
-        uses: google-github-actions/auth@v1
-        with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
-          
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+    - name: Google Cloud Auth
+      uses: google-github-actions/auth@v1
+      with:
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
         
-      - name: Configure Docker for GCP
-        run: |
-          gcloud auth configure-docker
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v1
+    
+    - name: Configure Docker for GCP
+      run: |
+        gcloud auth configure-docker
     
     - name: Build and Push Docker image
       run: |
