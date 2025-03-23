@@ -40,10 +40,11 @@ jobs:
     
     - name: Setup Docker
       run: |
-        # Install Docker Desktop
-        brew install --cask docker
-        # Start Docker Desktop
-        open -a Docker
+        # Check if Docker is already installed and running
+        if ! pgrep -x "Docker" > /dev/null; then
+          # Start Docker if it's not running
+          open -a Docker
+        fi
         # Wait for Docker to start
         for i in {1..60}; do
           if docker info > /dev/null 2>&1; then
