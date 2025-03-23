@@ -76,21 +76,20 @@ jobs:
     
     - name: Configure Docker for GCP
       run: |
-        gcloud auth configure-docker gcr.io --quiet
+        gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
     
     - name: Build and Push Docker image
       run: |
         PROJECT_ID=$(gcloud config get-value project)
         docker buildx create --use
         docker buildx build --platform linux/amd64 \
-          -t gcr.io/${PROJECT_ID}/acupuncture-api \
-          --push \
-          --build-arg DOCKER_BUILDKIT=1 .
+          -t us-central1-docker.pkg.dev/${PROJECT_ID}/acupuncture-api/api:latest \
+          --push .
     
     - name: Deploy to Cloud Run
       run: |
         gcloud run deploy acupuncture-api \
-          --image gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api \
+          --image us-central1-docker.pkg.dev/${PROJECT_ID}/acupuncture-api/api:latest \
           --platform managed \
           --region us-central1 \
           --allow-unauthenticated
