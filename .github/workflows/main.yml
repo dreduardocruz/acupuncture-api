@@ -80,9 +80,10 @@ jobs:
     
     - name: Build and Push Docker image
       run: |
+        PROJECT_ID=$(gcloud config get-value project)
         docker buildx create --use
         docker buildx build --platform linux/amd64 \
-          -t gcr.io/${{ secrets.GCP_PROJECT_ID }}/acupuncture-api \
+          -t gcr.io/${PROJECT_ID}/acupuncture-api \
           --push .
     
     - name: Deploy to Cloud Run
