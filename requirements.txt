@@ -13,3 +13,4 @@ MarkupSafe==3.0.2
 six==1.17.0
 tzdata==2025.2
 python-Levenshtein==0.27.1
+SQLAlchemy==2.0.28

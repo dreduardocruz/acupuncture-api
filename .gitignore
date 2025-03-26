@@ -17,3 +17,9 @@ __pycache__/
 *.log
 *.sqlite3
 actions-runner/
+
+# Arquivos de ambiente virtual
+venv/
+__pycache__/
+*.pyc
+.env
