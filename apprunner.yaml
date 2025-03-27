@@ -3,13 +3,16 @@ runtime: python3
 build:
   commands:
     pre-build:
-      - python -m pip install --upgrade pip
+      - python -m pip install --upgrade pip setuptools wheel
     build:
-      - pip install --no-cache-dir numpy==1.24.3
-      - pip install --no-cache-dir pandas==2.0.3
-      - pip install -r requirements.txt
+      - pip install --no-cache-dir --prefer-binary numpy==1.24.3
+      - pip install --no-cache-dir --prefer-binary pandas==2.0.3
+      - pip install --no-cache-dir -r requirements.txt
 run:
-  runtime-version: 3.11.11
-  command: gunicorn --bind 0.0.0.0:8080 app:app
+  runtime-version: 3.11
+  command: gunicorn --workers 4 --bind 0.0.0.0:8080 app:app --timeout 120
   network:
     port: 8080
+  env:
+    - name: PYTHONUNBUFFERED
+      value: "1"
