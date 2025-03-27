@@ -10,7 +10,7 @@ build:
       - python3 -m pip install --no-cache-dir -r requirements.txt
 run:
   runtime-version: 3.11
-  command: gunicorn --workers 4 --bind 0.0.0.0:8080 app:app --timeout 120
+  command: gunicorn --workers 4 --bind 0.0.0.0:8080 app:app --access-logfile - --error-logfile - --log-level info
   network:
     port: 8080
   env:
