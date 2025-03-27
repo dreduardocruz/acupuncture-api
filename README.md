@@ -33,10 +33,10 @@ Este projeto é um aplicativo destinado a médicos acupunturistas, que contém i
 
 Para iniciar o aplicativo, execute o seguinte comando:
 ```
-python src/app.py
+gunicorn --bind 0.0.0.0:8080 app:app
 ```
 
-O aplicativo estará disponível em `http://localhost:5000`.
+O aplicativo estará disponível em `http://localhost:8080`.
 
 ## Contribuição
 

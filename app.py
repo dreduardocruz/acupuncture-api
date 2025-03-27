@@ -9,7 +9,7 @@ from fuzzywuzzy import fuzz  # Adicione este import
 
 # Configuração dos caminhos dos arquivos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_DIR = os.path.join(BASE_DIR, 'css')  # Caminho para a pasta css
+STATIC_DIR = os.path.join(BASE_DIR, 'static')  # Caminho para a pasta css
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 POINTS_CSV = os.path.join(DATA_DIR, 'acupuncture_points.csv')
 MERIDIANS_CSV = os.path.join(DATA_DIR, 'meridians.csv')
