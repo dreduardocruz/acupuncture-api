@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from flask import Flask, render_template, request, Blueprint
 from routes.points_routes import points_routes
 from controllers.points_controller import PointsController
-from fuzzywuzzy import fuzz  # Adicione este import
+from fuzzywuzzy import fuzz  # Add this import
 
 # Configuração dos caminhos dos arquivos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
