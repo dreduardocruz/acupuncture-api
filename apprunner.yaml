@@ -3,11 +3,11 @@ runtime: python3
 build:
   commands:
     pre-build:
-      - /usr/local/bin/python -m pip install --upgrade pip setuptools wheel
+      - python3 -m pip install --upgrade pip setuptools wheel
     build:
-      - /usr/local/bin/pip install --no-cache-dir --prefer-binary numpy==1.24.3
-      - /usr/local/bin/pip install --no-cache-dir --prefer-binary pandas==2.0.3
-      - /usr/local/bin/pip install --no-cache-dir -r requirements.txt
+      - python3 -m pip install --no-cache-dir --prefer-binary numpy==1.24.3
+      - python3 -m pip install --no-cache-dir --prefer-binary pandas==2.0.3
+      - python3 -m pip install --no-cache-dir -r requirements.txt
 run:
   runtime-version: 3.11
   command: gunicorn --workers 4 --bind 0.0.0.0:8080 app:app --timeout 120
@@ -16,5 +16,3 @@ run:
   env:
     - name: PYTHONUNBUFFERED
       value: "1"
-    - name: PATH
-      value: "/usr/local/bin:${PATH}"
