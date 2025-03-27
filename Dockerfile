@@ -9,7 +9,9 @@ RUN pip install --no-cache-dir --prefer-binary numpy && \
 
 COPY . .
 
+# Configure Gunicorn
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["python", "app.py"]
+# Use Gunicorn with proper production settings
+CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8080", "app:app", "--access-logfile", "-", "--error-logfile", "-", "--log-level", "info"]
