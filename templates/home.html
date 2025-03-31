@@ -3,112 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API de Pontos de Acupuntura</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            position: relative;
-        }
-        .dragon-container {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-        .dragon-image {
-            width: 100px;
-            opacity: 0.8;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #2980b9;
-        }
-        .search-form {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: 5px;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background-color: #3498db;
-            color: white;
-            padding: 8px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <title>Acupuntura - Página Inicial</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
-        <div class="dragon-container">
-            <img src="{{ url_for('static', filename='images/dragon.jpg') }}" alt="Dragão" class="dragon-image">
-            <img src="{{ url_for('static', filename='images/dragon1.jpg') }}" alt="Dragão" class="dragon-image">
-        </div>
-        
-        <h1>Sistema de Pontos de Acupuntura</h1>
-        
-        <div class="links">
-            <a href="/points" class="button">Ver Pontos</a>
-            <a href="/meridians" class="button">Ver Meridianos</a>
-            <a href="/syndromes" class="button">Ver Síndromes</a>
-        </div>
+        <header>
+            <h1>Acupuntura - Base de Conhecimento</h1>
+            <nav>
+                <a href="{{ url_for('home') }}">Home</a>
+                <a href="{{ url_for('points_routes.get_points_html') }}">Pontos</a>
+                <a href="{{ url_for('points_routes.get_meridians_html') }}">Meridianos</a>
+                <a href="{{ url_for('points_routes.get_syndromes_html') }}">Síndromes</a>
+                <a href="{{ url_for('points_routes.get_western_diseases_html') }}">Doenças Ocidentais</a>
+            </nav>
+        </header>
 
-        <div class="search-form">
-            <h2>Pesquisar Pontos</h2>
-            <form action="/search" method="get">
-                <input type="text" id="query" name="query" placeholder="Digite o termo de pesquisa...">
-                <input type="submit" value="Pesquisar">
-            </form>
-        </div>
+        <main>
+            <section class="welcome-section">
+                <h2>Bem-vindo à Base de Conhecimento em Acupuntura</h2>
+                <p>Esta aplicação fornece informações detalhadas sobre:</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Pontos de Acupuntura</h3>
+                        <p>Localização e características dos principais pontos de acupuntura.</p>
+                        <a href="{{ url_for('points_routes.get_points_html') }}" class="feature-link">Ver Pontos</a>
+                    </div>
 
-        <div class="search-form">
-            <h2>Pesquisar Síndromes</h2>
-            <form action="/syndromes/search" method="get">
-                <input type="text" id="syndrome_query" name="query" placeholder="Digite o termo de pesquisa...">
-                <input type="submit" value="Pesquisar">
-            </form>
-        </div>
+                    <div class="feature-card">
+                        <h3>Meridianos</h3>
+                        <p>Informações sobre os canais de energia do corpo.</p>
+                        <a href="{{ url_for('points_routes.get_meridians_html') }}" class="feature-link">Ver Meridianos</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Síndromes</h3>
+                        <p>Padrões de desequilíbrio na medicina tradicional chinesa.</p>
+                        <a href="{{ url_for('points_routes.get_syndromes_html') }}" class="feature-link">Ver Síndromes</a>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>Doenças Ocidentais</h3>
+                        <p>Tratamento de doenças ocidentais com acupuntura.</p>
+                        <a href="{{ url_for('points_routes.get_western_diseases_html') }}" class="feature-link">Ver Doenças</a>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>

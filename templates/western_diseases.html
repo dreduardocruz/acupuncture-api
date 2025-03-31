@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doenças Ocidentais - Tratamento com Acupuntura</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Doenças Ocidentais - Tratamento com Acupuntura</h1>
+            <nav>
+                <a href="{{ url_for('home') }}">Home</a>
+                <a href="{{ url_for('points_routes.get_points_html') }}">Pontos</a>
+                <a href="{{ url_for('points_routes.get_meridians_html') }}">Meridianos</a>
+                <a href="{{ url_for('points_routes.get_syndromes_html') }}">Síndromes</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <form action="{{ url_for('points_routes.search_western_diseases_html') }}" method="GET">
+                    <input type="text" name="query" placeholder="Buscar doença..." value="{{ search_query if search_query else '' }}">
+                    <button type="submit">Buscar</button>
+                </form>
+            </section>
+
+            <section class="diseases-section">
+                {% if diseases %}
+                    <div class="diseases-grid">
+                        {% for disease in diseases %}
+                            <div class="disease-card">
+                                <h2>{{ disease['Doença'] }}</h2>
+                                <p class="cid">CID-10: {{ disease['CID-10'] }}</p>
+                                
+                                <div class="points-section">
+                                    <h3>Pontos Principais:</h3>
+                                    <ul>
+                                        {% for point in disease['Pontos Principais'].split(', ') %}
+                                            <li>{{ point }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                                <div class="details-section">
+                                    <h3>Detalhes dos Pontos:</h3>
+                                    <p>{{ disease['Detalhes dos Pontos'] }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <p class="no-results">Nenhuma doença encontrada.</p>
+                {% endif %}
+            </section>
+        </main>
+    </div>
+</body>
+</html> 
