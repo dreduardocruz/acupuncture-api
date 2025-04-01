@@ -20,102 +20,9 @@ class PointsController:
             print(f"Tentando carregar arquivo: {file_path}")
             points = PointsController.load_acupuncture_points(file_path)
             print(f"Pontos carregados: {len(points)}")
-            html_template = """
-            <!DOCTYPE html>
-            <html lang="pt-BR">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Pontos de Acupuntura</title>
-                <style>
-                    body {
-                        font-family: Arial, sans-serif;
-                        line-height: 1.6;
-                        margin: 0;
-                        padding: 20px;
-                        background-color: #f5f5f5;
-                    }
-                    .container {
-                        max-width: 1200px;
-                        margin: 0 auto;
-                    }
-                    table {
-                        width: 100%;
-                        border-collapse: collapse;
-                        margin: 20px 0;
-                        background-color: #fff;
-                        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-                    }
-                    th, td {
-                        padding: 12px;
-                        text-align: left;
-                        border: 1px solid #ddd;
-                    }
-                    th {
-                        background-color: #3498db;
-                        color: white;
-                    }
-                    tr:nth-child(even) {
-                        background-color: #f9f9f9;
-                    }
-                    tr:hover {
-                        background-color: #f1f1f1;
-                    }
-                    .nav-links {
-                        margin-bottom: 20px;
-                    }
-                    .nav-links a {
-                        color: #3498db;
-                        text-decoration: none;
-                        margin-right: 20px;
-                    }
-                    .nav-links a:hover {
-                        text-decoration: underline;
-                    }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <div class="nav-links">
-                        <a href="/">← Página Inicial</a>
-                        <a href="/meridians">Ver Meridianos</a>
-                    </div>
-                    <h1>Pontos de Acupuntura</h1>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Nome Chinês</th>
-                                <th>Localização</th>
-                                <th>Nível Energético</th>
-                                <th>Meridiano</th>
-                                <th>Canal Maravilhoso</th>
-                                <th>Função CM</th>
-                                <th>Particularidade</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for point in points %}
-                            <tr>
-                                <td>{{ point.name }}</td>
-                                <td>{{ point.chinese_name }}</td>
-                                <td>{{ point.location }}</td>
-                                <td>{{ point.energy_level }}</td>
-                                <td>{{ point.meridian }}</td>
-                                <td>{{ point.opens_channels }}</td>
-                                <td>{{ point.closes_channels }}</td>
-                                <td>{{ point.particularity }}</td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </body>
-            </html>
-            """
-            result = render_template_string(html_template, points=[point.to_dict() for point in points])
-            print("Template renderizado com sucesso")
-            return result
+            return render_template('points.html', 
+                                 points=[point.to_dict() for point in points],
+                                 search_query='')
         except Exception as e:
             print(f"Erro ao carregar pontos: {str(e)}")
             return f"<h1>Erro ao carregar pontos</h1><p>{str(e)}</p>", 500
@@ -142,7 +49,9 @@ class PointsController:
                 point_dict = point.to_dict()
                 if any(query.lower() in str(value).lower() for value in point_dict.values()):
                     results.append(point_dict)
-            return render_template('search_results.html', points=results)
+            return render_template('points.html', 
+                                 points=results,
+                                 search_query=query)
         except Exception as e:
             return f"<h1>Erro</h1><p>{str(e)}</p>", 500
 

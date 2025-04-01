@@ -15,14 +15,17 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            position: relative;
+        }
+        .header-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
         }
         .dragon-image {
-            position: absolute;
-            top: 0;
-            right: 0;
             width: 150px;
             opacity: 0.8;
+            margin-left: 20px;
         }
         table {
             width: 100%;
@@ -57,21 +60,58 @@
         .nav-links a:hover {
             text-decoration: underline;
         }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 30px;
-            padding-right: 160px; /* Espaço para a imagem do dragão */
+        .search-form {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 300px;
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .no-results {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="{{ url_for('static', filename='images/dragon.jpg') }}" alt="Dragão" class="dragon-image">
         <div class="nav-links">
             <a href="/">← Página Inicial</a>
+            <a href="/syndromes">Ver Síndromes</a>
             <a href="/meridians">Ver Meridianos</a>
+            <a href="/western-diseases">Ver Doenças Ocidentais</a>
         </div>
-        <h1>Pontos de Acupuntura</h1>
+
+        <div class="header-section">
+            <h1>Pontos de Acupuntura</h1>
+            <img src="{{ url_for('static', filename='images/dragon.jpg') }}" alt="Dragão" class="dragon-image">
+        </div>
+
+        <div class="search-form">
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Pesquisar pontos de acupuntura..." 
+                       value="{{ search_query if search_query is defined else '' }}">
+                <input type="submit" value="Pesquisar">
+            </form>
+        </div>
+
+        {% if points and points|length > 0 %}
         <table>
             <thead>
                 <tr>
@@ -100,6 +140,15 @@
                 {% endfor %}
             </tbody>
         </table>
+        {% else %}
+        <div class="no-results">
+            {% if search_query is defined and search_query %}
+                <p>Nenhum ponto encontrado para "{{ search_query }}"</p>
+            {% else %}
+                <p>Nenhum ponto disponível</p>
+            {% endif %}
+        </div>
+        {% endif %}
     </div>
 </body>
 </html>
