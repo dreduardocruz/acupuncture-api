@@ -1,25 +1,18 @@
-# Arquivos de ambiente virtual
+# Virtual Environment
 venv/
 .venv/
-__pycache__/
-
-# Arquivos de configuração do VSCode
-.vscode/
-
-# Arquivos de log
-*.log
-
-# Arquivos de banco de dados
-*.sqlite3venv/
-.venv/
-__pycache__/
-.vscode/
-*.log
-*.sqlite3
-actions-runner/
-
-# Arquivos de ambiente virtual
-venv/
 __pycache__/
 *.pyc
+
+# IDE Settings
+.vscode/
+
+# Environment Variables
 .env
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# CI/CD
+actions-runner/
