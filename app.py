@@ -51,11 +51,20 @@ if __name__ == '__main__':
             return self.application
 
     options = {
-        'bind': '0.0.0.0:8080',
+        'bind': '0.0.0.0:8000',
         'workers': 4,
-        'accesslog': '-',
-        'errorlog': '-',
-        'loglevel': 'info'
+        'daemon': True,
+        'pidfile': 'gunicorn.pid',
+        'accesslog': 'access.log',
+        'errorlog': 'error.log',
+        'loglevel': 'debug',
+        'capture_output': True,
+        'preload_app': True,
+        'timeout': 120
     }
 
-    StandaloneApplication(app, options).run()
+    try:
+        StandaloneApplication(app, options).run()
+        print("Application started in background. Check gunicorn.pid for process ID")
+    except Exception as e:
+        print(f"Error starting application: {e}")

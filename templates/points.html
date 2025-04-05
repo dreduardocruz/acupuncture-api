@@ -92,10 +92,10 @@
 <body>
     <div class="container">
         <div class="nav-links">
-            <a href="/">← Página Inicial</a>
-            <a href="/syndromes">Ver Síndromes</a>
-            <a href="/meridians">Ver Meridianos</a>
-            <a href="/western-diseases">Ver Doenças Ocidentais</a>
+            <a href="{{ url_for('home') }}">← Página Inicial</a>
+            <a href="{{ url_for('points_routes.get_syndromes_html') }}">Ver Síndromes</a>
+            <a href="{{ url_for('points_routes.get_meridians_html') }}">Ver Meridianos</a>
+            <a href="{{ url_for('points_routes.get_western_diseases_html') }}">Acupuntura e PBE</a>
         </div>
 
         <div class="header-section">
